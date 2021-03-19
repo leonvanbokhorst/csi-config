@@ -21,8 +21,6 @@ Zone "Buttons"
     Flip                        Shift
     GlobalView                  GoZone Home
     nameValue                   NoAction
-    smpteBeats                  CycleTimeDisplayModes
-    TimeDisplay                 TimeDisplay
     F1                          NoAction
     F2                          NoAction
     F3                          NoAction
@@ -90,19 +88,15 @@ Zone "Channel"
     DisplayLower|               MCUTrackPanDisplay Rotary|
     RotaryPush|                 NoAction
     Rotary|                     MCUTrackPan
-    RecordArm|                  TrackRecordArm
+    RecordArm|                  TrackUniqueSelect
+    Hold+RecordArm|             Reaper "41665" //Show/hide children of selected tracks		
     Solo|                       TrackMute
     Shift+Mute|                 ClearAllSolo
     Mute|                       TrackSolo
-    Select|                     TrackUniqueSelect
-    Hold+Select|                TrackUniqueSelect
-    Hold+Select|				TrackToggleVCASpill
-    Hold+Select|				Reaper "41665"				//Show/hide children of selected tracks
-    Shift+Select|               TrackRangeSelect
-    Control+Select|             TrackSelect
+    Select|                     TrackRecordArm
+    Shift+RecordArm|            TrackSelect
     Shift+Control+Select|       TogglePin
     Fader|                      TrackVolume
-    VUMeter|                    TrackOutputMeter
 ZoneEnd
 
 
