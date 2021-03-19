@@ -59,7 +59,7 @@ Zone "Buttons"
     Enter                       Reaper "41665"				//Show/hide children of selected tracks
     Marker                      Reaper "40157"              //Insert marker at current position
     Hold+Marker                 Reaper "40614"              //Edit marker near cursor
-    Nudge                       NoAction
+    Hold+Nudge                  GoZone Home
     Cycle                       CycleTimeline
     Drop                        ToggleVCAMode
     Replace                     ToggleScrollLink 17
@@ -87,14 +87,15 @@ Zone "Channel"
     DisplayUpper|               TrackNameDisplay
     DisplayLower|               MCUTrackPanDisplay Rotary|
     RotaryPush|                 NoAction
-    Rotary|                     MCUTrackPan
+    Rotary|                     MCUTrackPan 
     RecordArm|                  TrackUniqueSelect
-    Hold+RecordArm|             Reaper "41665" //Show/hide children of selected tracks		
+   // Hold+RecordArm|             Reaper "41665" //Show/hide children of selected tracks		
     Solo|                       TrackMute
     Shift+Mute|                 ClearAllSolo
     Mute|                       TrackSolo
     Select|                     TrackRecordArm
     Shift+RecordArm|            TrackSelect
+    Hold+RecordArm|             MapFocusedFXToWidgets
     Shift+Control+Select|       TogglePin
     Fader|                      TrackVolume
 ZoneEnd
@@ -121,5 +122,5 @@ Zone "FXMenu"
     DisplayUpper|               FXMenuNameDisplay
     DisplayLower|               NoAction
     Rotary|                     NoAction
-    RotaryPush|                 GoFXSlot
+    //RotaryPush|                 GoFXSlot
 ZoneEnd

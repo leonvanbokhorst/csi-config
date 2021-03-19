@@ -1,0 +1,43 @@
+Zone "VST3: CLA-76 Mono (Waves)" WavesCla76
+
+	FocusedFXNavigator
+
+	Fader1| FXParam 2 "Input"
+	Fader2| FXParam 3 "Output"
+	Fader3| FXParam 4 "Attack"
+	Fader4| FXParam 5 "Release"
+	Fader5| FXParam 6 "Ratio"
+  Fader6| NoAction
+  Fader7| NoAction
+  Fader8| NoAction
+  //FXParam 0 "Bypass"
+	//FXParam 1 "Bank"
+	//FXParam 7 "Analog"
+	//FXParam 8 "Revision"
+	//FXParam 9 "Meter"
+	//FXParam 10 "Comp Off"
+	//FXParam 11 "Bypass"
+	//FXParam 12 "Wet"
+ZoneEnd
+
+Zone "VST3: CLA-76 Stereo (Waves)" WavesCla76
+
+	FocusedFXNavigator
+
+  Fader1| FXParam 2 "Input"
+	Fader2| FXParam 3 "Output"
+	Fader3| FXParam 4 "Attack"
+	Fader4| FXParam 5 "Release"
+	Fader5| FXParam 6 "Ratio"
+  Fader6| NoAction
+  Fader7| NoAction
+  Fader8| NoAction
+  //FXParam 0 "Bypass"
+	//FXParam 1 "Bank"
+	//FXParam 7 "Analog"
+	//FXParam 8 "Revision"
+	//FXParam 9 "Meter"
+	//FXParam 10 "Comp Off"
+	//FXParam 11 "Bypass"
+	//FXParam 12 "Wet"
+ZoneEnd
