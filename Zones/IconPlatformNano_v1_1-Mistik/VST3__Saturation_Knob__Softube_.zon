@@ -1,0 +1,8 @@
+Zone "VST3: Saturation Knob (Softube)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 0 "Saturation"
+	Rotary2	FXParam 1 "Saturation Type"
+
+	Alt+Rotary4	FXParam 4 "Wet"
+ZoneEnd

@@ -1,0 +1,39 @@
+Zone "VST3: C6-SideChain Stereo (Waves)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 22 "B2 Threshold"
+	Control+Rotary1	FXParam 23 "B2 Gain"
+	Alt+Rotary1	FXParam 24 "B2 Range"
+
+	Shift+Rotary1	FXParam 6 "Low Crossover"
+	Shift+Rotary2	FXParam 7 "Mid Crossover"
+	Shift+Rotary3	FXParam 8 "High Crossover"
+
+	Rotary2	FXParam 30 "B3 Threshold"
+	Alt+Rotary2	FXParam 32 "B3 Range"
+	Control+Rotary2	FXParam 31 "B3 Gain"
+	RotaryPush1	FXParam 28 "B3 Solo"
+
+	Rotary3	FXParam 38 "B4 Threshold"
+	Alt+Rotary3	FXParam 40 "B4 Range"
+	Control+Rotary3	FXParam 39 "B4 Gain"
+	RotaryPush3	FXParam 36 "B4 Solo"
+
+	Rotary4	FXParam 46 "B5 Threshold"
+	Control+Rotary4	FXParam 47 "B5 Gain"
+	Alt+Rotary4	FXParam 48 "B5 Range"
+	RotaryPush4	FXParam 44 "B5 Solo"
+
+	Rotary5	FXParam 12 "B1 Threshold"
+	Alt+Rotary5	FXParam 14 "B1 Range"
+	Shift+Rotary5	FXParam 19 "B1 Frequency"
+	Control+Rotary5	FXParam 13 "B1 Gain"
+	RotaryPush5	FXParam 10 "B1 Solo"
+
+	Rotary6	FXParam 54 "B6 Threshold"
+	Control+Rotary6	FXParam 55 "B6 Gain"
+	Alt+Rotary6	FXParam 56 "B6 Range"
+	Shift+Rotary6	FXParam 61 "B6 Frequency"
+	RotaryPush6	FXParam 52 "B6 Solo"
+
+ZoneEnd

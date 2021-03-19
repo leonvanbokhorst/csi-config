@@ -1,0 +1,24 @@
+// ------------------------------------------------------------
+// Behringer X-Touch Extender - VST: ReaNinjam (Cockos)
+// by Michael Bodenbach
+// 05.11.2020
+// ------------------------------------------------------------
+// Version 0.1 / 05.11.2020
+// ------------------------------------------------------------
+// History:
+// 05.11.2020   Initial version
+// ------------------------------------------------------------
+// Todo:
+//				...
+// ------------------------------------------------------------
+Zone "VST: ReaNINJAM (Cockos)" "NINJAM"
+    //FocusedFXNavigator
+	SelectedTrackNavigator
+    
+	DisplayUpper8 		FixedTextDisplay				"Ninjam"
+	DisplayLower8		FixedTextDisplay				"Active"
+
+	Fader8				NoAction
+	Rotary8				NoAction
+
+ZoneEnd

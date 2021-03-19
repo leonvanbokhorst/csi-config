@@ -1,0 +1,13 @@
+Zone "VST3: RDeEsser Stereo (Waves)"
+	SelectedTrackNavigator
+	FXParam 0 "Bypass"
+	FXParam 1 "Bank"
+	FXParam 2 "Freq"
+	FXParam 3 "FilterType"
+	FXParam 4 "FilterMode"
+	FXParam 5 "Range"
+	FXParam 6 "Threshold"
+	FXParam 7 "Monitor"
+	FXParam 8 "Bypass"
+	FXParam 9 "Wet"
+ZoneEnd

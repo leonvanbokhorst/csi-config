@@ -1,0 +1,9 @@
+Zone "VST: UAD Ampeg SVTVR Classic (Universal Audio, Inc.)"
+	SelectedTrackNavigator
+	Toggle+Input 	FXParam "5"
+	Toggle+Ch2UlHi 	FXParam "6"
+	Toggle+Ch2UlLo	FXParam "7"
+	Ch2Vol 		FXParam "8" "Vol"
+	Ch2Tr 		FXParam "9"
+	Ch2Bass 	FXParam "10"
+ZoneEnd

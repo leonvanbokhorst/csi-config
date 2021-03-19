@@ -1,0 +1,59 @@
+Zone Home
+    OnTrackSelection MapSelectedTrackFXToMenu
+    OnTrackSelection MapSelectedTrackSendsToWidgets
+        IncludedZones
+            "C4_Buttons"
+        IncludedZonesEnd
+ZoneEnd
+
+Zone "C4_Buttons"
+        Marker              Shift
+        Track               Option
+        ChanStrip           Control
+        Function            Alt
+        BankLeft            TrackBank "-8"
+        BankRight           TrackBank "8"
+        ChannelLeft         TrackBank "-1"
+        ChannelRight        TrackBank "1"
+        Lock                MapSelectedTrackFXToMenu
+        Lock                MapSelectedTrackSendsToWidgets
+        Shift+Lock          Reaper "_S&M_FXBYPALL"          //Toggle all FX bypass for selected track
+        SpotErase           Reaper "_S&M_TOGLFXCHAIN"       // Toggle FX chain window for selected track
+        Split               Reaper "_S&M_WNCLS4"            //Close all FX chain windows
+        Split               Reaper "_S&M_WNCLS3"            //Close all floating FX windows
+        Shift               NoAction
+        Option              NoAction
+        Control             NoAction
+        Alt                 NoAction        
+ZoneEnd
+
+
+Zone "Send"
+        SendNavigator
+        DisplayUpperC|      TrackSendNameDisplay
+        DisplayLowerC|      TrackSendVolumeDisplay                                 
+        RotaryC|            TrackSendVolume [ (0.001,0.02,0.04,0.06,0.1) ]
+        RotaryPushC|        TrackSendMute
+ZoneEnd
+
+
+Zone "FXMenu"
+        FXMenuNavigator
+        DisplayUpperA|      NoAction
+        DisplayLowerA|      NoAction
+        RotaryPushA|        NoAction
+        RotaryA|            NoAction
+            
+        DisplayUpperB|      NoAction
+        DisplayLowerB|      NoAction
+        RotaryPushB|        NoAction
+        RotaryB|            NoAction
+
+        DisplayUpperD|      FXMenuNameDisplay
+        DisplayLowerD|      NoAction
+        RotaryD|            NoAction
+        RotaryPushD|        Reaper "_S&M_SHOWFXCHAIN|"
+        Shift+RotaryPushD|  Reaper "_S&M_FXBYP|"             //Bypass FX Slot
+        Option+RotaryPushD| Reaper "_S&M_FXOFF|"             //Offline FX slot
+        RotaryPushD|        GoFXSlot
+ZoneEnd

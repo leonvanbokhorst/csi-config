@@ -1,0 +1,66 @@
+Zone Home
+IncludedZones
+"Buttons"
+IncludedZonesEnd
+ZoneEnd
+
+Zone "Buttons"
+Blank1 Reaper "_SWS_UNSELALL" // UNSELECT ALL TRKS/ITEMS/ENV
+Send Reaper "40557" // TOGGLE SHOW SENDS ABOVE MIXER
+F1 Reaper "40173" // GO TO NEXT MARKER
+F2 Reaper "40771" // TOGGLE ENABLE TRACK GROUPING
+F3 Reaper "1157" // TOGGLE SNAPPING
+F4 Reaper "40145" // TOGGLE GRID
+F5 Reaper "41309" // MOVE DUPLICATE OF ITEM TO CURSOR
+F6 Reaper "40760" // DYNAMIC SPLIT
+F7 Reaper "41588" // GLUE ITEMS
+F8 Reaper "40548" // HEAL SPLITS IN ITEMS
+Pan Reaper "_XENAKIOS_PANTRACKSCENTER" // PAN SEL TRKS TO CENTER
+Plugins Reaper "40271" // SHOW FX BROWSER
+Track Reaper "40001" // INSERT NEW TRACK
+Items Reaper "40012" // SPLIT ITEM AT CURSOR
+Takes Reaper "_XENAKIOS_RRSELECTTAKESOFITEMS" // SELECT TAKES
+Create Reaper "40701" // CREATE VIRTUAL INSTRUMENT TRACK
+Project Reaper "40023" // START NEW PROJECT
+Mixer Reaper "40078" // TOGGLE MIXER VISIBLE
+TrackFX Reaper "_S&M_TOGLFXCHAIN" // TOGGLE SHOW FX CHAIN 
+Master Reaper "41636" // TOGGLE MASTER IN SEPERATE WINDOW 
+EQ Reaper "41757" // INSERT/SHOW ReaEQ
+Blank2 NoAction
+Save Reaper "40026" // SAVE PROJECT
+Undo Reaper "40029" // UNDO
+Cancel NoAction
+Enter ToggleVCAMode // ENTER/EXIT CSI VCA MODE
+Flip NoAction 
+Shift Shift
+Up Reaper "40111" // ZOOM IN VERTICAL
+Option Option
+NameValue NoAction
+SmpteBeats CycleTimeDisplayModes
+Trim TrackAutoMode "0"
+Shift+Trim GlobalAutoMode "0"
+Touch TrackAutoMode "2"
+Shift+Touch GlobalAutoMode "2"
+Latch TrackAutoMode "4"
+Shift+Latch GlobalAutoMode "4"
+Group Reaper "42023" // LATCH PREVIEW
+GlobalView Reaper "40346" // TOGGLE FULLSCREEN
+Left Reaper "1011" // ZOOM OUT HORIZONTAL
+Zoom Reaper "40113" // ZOOM SELECTED TRACK
+Right Reaper "1012" // ZOOM IN HORIZONTAL
+Marker Reaper "40157" // INSERT MARKER
+Nudge Reaper "_ZENAKIOS_NUDGEITEMVOLUP" // ITEM VOL UP 1db
+Shift+Nudge Reaper "_XENAKIOS_NUDGEITEMVOLDOWN" // ITEM VOL DOWN 
+Loop CycleTimeline
+RecordMode Reaper "_BR_CYCLE_RECORD_MODES"
+Blank3 NoAction
+Click Reaper "40364" // METRONOME
+UnSoloAll Reaper "40340" // UNSOLO ALL
+Control Control
+Down Reaper "40112" // ZOOM OUT VERTICAL
+Alt Alt
+ZoneEnd
+
+
+     
+  

@@ -1,0 +1,370 @@
+ Softube Console 1 Fader definitions. All buttons are at least 2-state, meaning we use AnyPress and FB_TwoState.
+/ Faders are Fader7Bit / FB_Fader7Bit.
+/ Here, as opposed to on the C1, the "Shift"-button DOES send data.
+/ I've tried to stay as close to the printed labels as possible for the widget names.
+
+
+		/Starting with definitions for the 10 channels, Fader, Solo, Mute, TrackSelect
+		
+Widget Fader1 
+    Fader7Bit b0 64 7f
+    FB_Fader7Bit b0 64 7f
+    Touch b0 0a 7f
+WidgetEnd  
+
+Widget Fader2 
+    Fader7Bit b0 66 7f
+    FB_Fader7Bit b0 66 7f
+    Touch b0 09 7f
+WidgetEnd  
+
+Widget Fader3 
+    Fader7Bit b0 68 7f
+    FB_Fader7Bit b0 68 7f
+    Touch b0 08 7f
+WidgetEnd  
+
+Widget Fader4
+    Fader7Bit b0 6a 7f
+    FB_Fader7Bit b0 6a 7f
+    Touch b0 07 7f b0 07 00
+WidgetEnd  
+
+Widget Fader5 
+    Fader7Bit b0 6c 7f
+    FB_Fader7Bit b0 6c 7f
+    Touch b0 06 7f b0 06 00
+WidgetEnd  
+
+Widget Fader6
+    Fader7Bit b0 6e 7f
+    FB_Fader7Bit b0 6e 7f
+    Touch b0 05 7f b0 05 00
+WidgetEnd  
+
+Widget Fader7
+    Fader7Bit b0 70 7f
+    FB_Fader7Bit b0 70 7f
+    Touch b0 04 7f b0 04 00
+WidgetEnd  
+
+Widget Fader8
+    Fader7Bit b0 72 7f
+    FB_Fader7Bit b0 72 7f
+    Touch b0 03 7f b0 03 00
+WidgetEnd  
+
+Widget Fader9
+    Fader7Bit b0 74 7f
+    FB_Fader7Bit b0 74 7f
+    Touch b0 02 7f b0 02 00
+WidgetEnd  
+
+Widget Fader10 
+    Fader7Bit b0 76 7f
+    FB_Fader7Bit b0 76 7f
+    Touch b0 01 7f b0 01 00
+WidgetEnd  
+
+Widget Solo1
+	AnyPress b0 3f 7f
+	FB_TwoState b0 3f 7f b0 3f 00
+WidgetEnd
+
+Widget Solo2
+	AnyPress b0 3c 7f
+	FB_TwoState b0 3c 7f b0 3c 00
+WidgetEnd
+
+Widget Solo3
+	AnyPress b0 39 7f
+	FB_TwoState b0 39 7f b0 39 00
+WidgetEnd
+
+Widget Solo4
+	AnyPress b0 36 7f
+	FB_TwoState b0 36 7f b0 36 00
+WidgetEnd
+
+Widget Solo5
+	AnyPress b0 33 7f
+	FB_TwoState b0 33 7f b0 33 00
+WidgetEnd
+
+Widget Solo6
+	AnyPress b0 30 7f
+	FB_TwoState b0 30 7f b0 30 00
+WidgetEnd
+
+Widget Solo7
+	AnyPress b0 2d 7f
+	FB_TwoState b0 2d 7f b0 2d 00
+WidgetEnd
+
+Widget Solo8
+	AnyPress b0 2a 7f
+	FB_TwoState b0 2a 7f b0 2a 00
+WidgetEnd
+
+Widget Solo9
+	AnyPress b0 27 7f
+	FB_TwoState b0 27 7f b0 27 00
+WidgetEnd
+
+Widget Solo10
+	AnyPress b0 24 7f
+	FB_TwoState b0 24 7f b0 24 00
+WidgetEnd
+
+Widget Mute1
+	AnyPress b0 3e 7f
+	FB_TwoState b0 3e 7f b0 3e 00
+WidgetEnd
+
+Widget Mute2
+	AnyPress b0 3b 7f
+	FB_TwoState b0 3b 7f b0 3b 00
+WidgetEnd
+
+Widget Mute3
+	AnyPress b0 38 7f
+	FB_TwoState b0 38 7f b0 38 00
+WidgetEnd
+
+Widget Mute4
+	AnyPress b0 35 7f
+	FB_TwoState b0 35 7f b0 35 00
+WidgetEnd
+
+Widget Mute5
+	AnyPress b0 32 7f
+	FB_TwoState b0 32 7f b0 32 00
+WidgetEnd
+
+Widget Mute6
+	AnyPress b0 2f 7f
+	FB_TwoState b0 2f 7f b0 2f 00
+WidgetEnd
+
+Widget Mute7
+	AnyPress b0 2c 7f
+	FB_TwoState b0 2c 7f b0 2c 00
+WidgetEnd
+
+Widget Mute8
+	AnyPress b0 29 7f
+	FB_TwoState b0 29 7f b0 29 00
+WidgetEnd
+
+Widget Mute9
+	AnyPress b0 26 7f
+	FB_TwoState b0 26 7f b0 26 00
+WidgetEnd
+
+Widget Mute10
+	AnyPress b0 23 7f
+	FB_TwoState b0 23 7f b0 23 00
+WidgetEnd
+
+Widget TrackSelect1
+	AnyPress b0 3d 7f
+	FB_TwoState b0 3d 7f b0 3d 00
+WidgetEnd
+
+Widget TrackSelect2
+	AnyPress b0 3a 7f
+	FB_TwoState b0 3a 7f b0 3a 00
+WidgetEnd
+
+Widget TrackSelect3
+	AnyPress b0 37 7f
+	FB_TwoState b0 37 7f b0 37 00
+WidgetEnd
+
+Widget TrackSelect4
+	AnyPress b0 34 7f
+	FB_TwoState b0 34 7f b0 34 00
+WidgetEnd
+
+Widget TrackSelect5
+	AnyPress b0 31 7f
+	FB_TwoState b0 31 7f b0 31 00
+WidgetEnd
+
+Widget TrackSelect6
+	AnyPress b0 2e 7f
+	FB_TwoState b0 2e 7f b0 2e 00
+WidgetEnd
+
+Widget TrackSelect7
+	AnyPress b0 2b 7f
+	FB_TwoState b0 2b 7f b0 2b 00
+WidgetEnd
+
+Widget TrackSelect8
+	AnyPress b0 28 7f
+	FB_TwoState b0 28 7f b0 28 00
+WidgetEnd
+
+Widget TrackSelect9
+	AnyPress b0 25 7f
+	FB_TwoState b0 25 7f b0 25 00
+WidgetEnd
+
+Widget TrackSelect10
+	AnyPress b0 22 7f
+	FB_TwoState b0 22 7f b0 22 00
+WidgetEnd
+
+		/ Top right buttons
+ 
+Widget PageMinus
+	AnyPress b0 21 7f
+	FB_TwoState b0 21 7f b0 21 00
+WidgetEnd
+ 
+Widget PagePlus
+	AnyPress b0 20 7f
+	FB_TwoState b0 20 7f b0 20 00
+WidgetEnd
+
+Widget DisplayOn
+	AnyPress b0 1f 7f
+	FB_TwoState b0 1f 7f b0 1f 00
+WidgetEnd
+
+Widget DisplayMode
+	AnyPress b0 1e 7f
+	FB_TwoState b0 1e 7f b0 1e 00
+WidgetEnd
+
+Widget LoadDrive
+	AnyPress b0 1d 7f
+	FB_TwoState b0 1d 7f b0 1d 00
+WidgetEnd
+
+Widget Settings
+	AnyPress b0 1f 7f
+	FB_TwoState b0 1f 7f b0 1f 00
+WidgetEnd
+
+		/ Fader Mode buttons
+
+Widget Send1
+	AnyPress b0 1b 7f
+	FB_TwoState b0 1b 7f b0 1b 00
+WidgetEnd
+
+Widget Send2
+	AnyPress b0 1a 7f
+	FB_TwoState b0 1a 7f b0 1a 00
+WidgetEnd
+
+Widget Send3
+	AnyPress b0 19 7f
+	FB_TwoState b0 19 7f b0 19 00
+WidgetEnd
+
+Widget Volume
+	AnyPress b0 15 7f
+	FB_TwoState b0 15 7f b0 15 00
+WidgetEnd
+
+Widget Drive
+	AnyPress b0 14 7f
+	FB_TwoState b0 14 7f b0 14 00
+WidgetEnd
+
+Widget Character
+	AnyPress b0 13 7f
+	FB_TwoState b0 13 7f b0 13 00
+WidgetEnd
+
+Widget InputGain
+	AnyPress b0 10 7f
+	FB_TwoState b0 10 7f b0 10 00
+WidgetEnd
+
+Widget LowCut
+	AnyPress b0 0c 7f
+	FB_TwoState b0 0c 7f b0 0c 00
+WidgetEnd
+
+Widget HighCut
+	AnyPress b0 0f 7f
+	FB_TwoState b0 0f 7f b0 0f 00
+WidgetEnd
+
+		/ Assignable buttons
+
+Widget Rew
+	AnyPress b0 18 7f
+	FB_TwoState b0 18 7f b0 18 00
+WidgetEnd
+
+Widget PlayPause
+	AnyPress b0 17 7f
+	FB_TwoState b0 17 7f b0 17 00
+WidgetEnd
+
+Widget Ffwd
+	AnyPress b0 16 7f
+	FB_TwoState b0 16 7f b0 16 00
+WidgetEnd
+
+		/Bottom right buttons
+		
+Widget Solo
+	AnyPress b0 12 7f
+	FB_TwoState b0 12 7f b0 12 00
+WidgetEnd
+
+Widget Mute
+	AnyPress b0 11 7f
+	FB_TwoState b0 11 7f b0 11 00
+WidgetEnd
+
+Widget LayerMode
+	AnyPress b0 0e 7f
+	FB_TwoState b0 0e 7f b0 0e 00
+WidgetEnd
+
+Widget AssignTrackToLayer
+	AnyPress b0 0d 7f
+	FB_TwoState b0 0d 7f b0 0d 00
+WidgetEnd
+
+Widget Shift
+	AnyPress b0 0b 7f
+	FB_TwoState b0 0b 7f b0 0b 00
+WidgetEnd
+
+		/ The Pan, Select knob
+
+Widget PanSelect
+    Fader7Bit b0 78 7f
+    FB_Fader7Bit b0 78 7f
+WidgetEnd 
+
+
+		/ Not sure what the metering widgets are, but there's lots of metering with colors and stuff possible on this surface. Below are some widgets from Console1.
+
+/Widget CompressorMeter
+/	FB_GainReductionMeter b0 73 00
+/WidgetEnd
+
+/Widget InputMeterLeft
+/	FB_VUMeter b0 6e 00
+/WidgetEnd
+
+/Widget InputMeterRight
+/	FB_VUMeter b0 6f 00
+/WidgetEnd
+
+/Widget OutputMeterLeft
+/	FB_VUMeter b0 70 00
+/WidgetEnd
+
+/Widget OutputMeterRight
+/	FB_VUMeter b0 71 00
+/WidgetEnd

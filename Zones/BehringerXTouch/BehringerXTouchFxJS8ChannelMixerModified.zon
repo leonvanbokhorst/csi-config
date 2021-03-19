@@ -1,0 +1,37 @@
+// ------------------------------------------------------------
+// Behringer X-Touch - JS: 8 channel mixer MODIFIED
+// by Michael Bodenbach
+// 09.12.2020
+// ------------------------------------------------------------
+// Version 0.1 / 09.12.2020
+// ------------------------------------------------------------
+// History:
+// 09.12.2020   Initial version
+// ------------------------------------------------------------
+// Todo:
+//				Only Pan woking at the moment!
+//				...
+// ------------------------------------------------------------
+Zone "JS: 8 channel mixer MODIFIED." "Mix 8"
+	SelectedTrackNavigator
+    
+	DisplayUpper1 		FXParamNameDisplay	"0"					"Pan 1"
+	DisplayLower1		FXParamNameDisplay	"0"					"Lev 1"
+	Fader1				FXParam 0			"Level 1 (dB)"	[ -40.0>10.0 (0.1) ]
+	Rotary1				FXParam 8			"Pan 1 L<->R"
+	
+	DisplayUpper2 		FXParamNameDisplay	"1"					"Pan 2"
+	DisplayLower2		FXParamNameDisplay	"1"					"Lev 2"
+	Fader2				FXParam 1			"Level 2 (dB)"
+	Rotary2				FXParam 9			"Pan 2 L<->R"
+
+	DisplayUpper3 		FXParamNameDisplay	"2"					"Pan 3"
+	DisplayLower3		FXParamNameDisplay	"2"					"Lev 3"
+	Fader3				FXParam 2			"Level 3 (dB)"
+	Rotary3				FXParam 10			"Pan 3 L<->R"
+
+	// ------------------------------------------------------------
+	// Misc actions
+	// ------------------------------------------------------------	
+
+ZoneEnd

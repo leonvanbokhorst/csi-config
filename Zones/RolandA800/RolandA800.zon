@@ -1,0 +1,25 @@
+Zone "Home"
+	SelectedTrackNavigator
+	Volume FXParam 0 "Volume"
+	PercOff  FXParam 1 "Perc On/Off" [ 1.0 ]
+	PercOn  FXParam 1 "Perc On/Off" [ 0.0 ]
+	Perc2nd  FXParam 2 "Perc 2/3" [ 1.0 ]
+	Perc3rd  FXParam 2 "Perc 2/3" [ 0.0 ]
+	Leakage  FXParam 3 "leakageGain"
+	LeslieStop FXParam 4 "Rotary" [ 0.0 ]
+	LeslieSlow FXParam 4 "Rotary" [ 0.5 ]
+	LeslieFast FXParam 4 "Rotary" [ 1.0 ]
+	C3Off FXParam 5 "Chorus" [ 1.0 ]
+	C3On FXParam 5 "Chorus" [ 0.0 ]
+	Drawbar_16 FXParam 6 "Drawbar 16"
+	Drawbar_8 FXParam 7 "Drawbar 8"
+	Drawbar_5_1_3 FXParam 8 "Drawbar 5 1/3"
+	Drawbar_4 FXParam 9 "Drawbar 4"
+	Drawbar_2_2_3 FXParam 10 "Drawbar 2 2/3"
+	Drawbar_2 FXParam 11 "Drawbar 2"
+	Drawbar_1_3_5 FXParam 12 "Drawbar 1 3/5"
+	Drawbar_1_1_3 FXParam 13 "Drawbar 1 1/3"
+	Drawbar_1  FXParam 14 "Drawbar 1"
+/	FXParam 15 "Bypass"
+/	FXParam 16 "Wet"
+ZoneEnd

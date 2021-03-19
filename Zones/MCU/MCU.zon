@@ -1,0 +1,130 @@
+Zone Home
+    IncludedZones
+        "Buttons"
+        "Channel"
+        "MasterTrack"
+    IncludedZonesEnd
+ZoneEnd
+
+
+Zone "Buttons"
+    Track                       NoAction
+    Send                        MapSelectedTrackSendsToWidgets
+    Pan                         NoAction
+    Plugin                      MapSelectedTrackFXToMenu
+    EQ                          NoAction
+    Instrument                  NoAction
+    BankLeft                    TrackBank "-8"
+    BankRight                   TrackBank "8"
+    ChannelLeft                 TrackBank "-1"
+    ChannelRight                TrackBank "1"
+    Flip                        NoAction
+    GlobalView                  GoZone Home
+    nameValue                   NoAction
+    smpteBeats                  CycleTimeDisplayModes
+    TimeDisplay                 TimeDisplay
+    F1                          NoAction
+    F2                          NoAction
+    F3                          NoAction
+    F4                          NoAction
+    F5                          NoAction
+    F6                          NoAction
+    F7                          NoAction
+    F8                          NoAction
+    MidiTracks                  NoAction
+    Inputs                      NoAction
+    AudioTracks                 NoAction
+    AudioInstrument             NoAction
+    Aux                         NoAction
+    Busses                      NoAction
+    Outputs                     NoAction
+    User                        NoAction
+    Shift                       Shift
+    Option                      Option
+    Control                     Control
+    Alt                         Alt     
+    Read                        TrackAutoMode "1"
+    Write                       TrackAutoMode "3"
+    Trim                        TrackAutoMode "0"
+    Touch                       TrackAutoMode "2"
+    Latch                       TrackAutoMode "4"
+    Group                       Reaper "42023"              //Set track automation mode to latch preview
+    Shift+Read                  GlobalAutoMode "1"
+    Shift+Write                 GlobalAutoMode "3"
+    Shift+Trim                  GlobalAutoMode "0"
+    Shift+Touch                 GlobalAutoMode "2"
+    Shift+Latch                 GlobalAutoMode "4"  
+    Shift+Group                 Reaper "42024"              //Set all tracks automation mode to latch preview   
+    Save                        ToggleLearnMode
+    Undo                        NoAction
+    Cancel                      TrackToggleVCASpill
+    Enter                       Reaper "41665"				//Show/hide children of selected tracks
+    Marker                      Reaper "40157"              //Insert marker at current position
+    Hold+Marker                 Reaper "40614"              //Edit marker near cursor
+    Nudge                       NoAction
+    Cycle                       CycleTimeline
+    Drop                        ToggleVCAMode
+    Replace                     ToggleScrollLink 17
+    Click                       Reaper "40364"              //Toggle metronome
+    Hold+Click					Reaper "40363"
+    Solo                        ClearAllSolo 
+    Rewind                      Reaper "40172"              //Go to next marker/project end      
+    FastForward                 Reaper "40173"              //Go to previous marker/project start
+    Stop                        Stop
+    Play                        Play
+    Record                      Record
+    JogWheelRotaryCW            Reaper "40647"              //Move cursor right to grid division
+    JogWheelRotaryCCW           Reaper "40646"              //Move cursor left to grid division
+    Scrub                       NoAction
+    Left                        TrackBank "-8"      
+    Right                       TrackBank "8"
+    Up                          TrackBank "1"
+    Down                        TrackBank "-1"
+    Zoom                        ForceScrollLink
+ZoneEnd
+
+
+Zone "Channel"
+    TrackNavigator
+    DisplayUpper|               TrackNameDisplay
+    DisplayLower|               MCUTrackPanDisplay Rotary|
+    RotaryPush|                 NoAction
+    Rotary|                     MCUTrackPan
+    RecordArm|                  TrackRecordArm
+    Solo|                       TrackSolo
+    Mute|                       TrackMute
+    Select|                     TrackUniqueSelect
+    Hold+Select|                TrackUniqueSelect
+    Hold+Select|				TrackToggleVCASpill
+    Hold+Select|				Reaper "41665"				//Show/hide children of selected tracks
+    Shift+Select|               TrackRangeSelect
+    Control+Select|             TrackSelect
+    Shift+Control+Select|       TogglePin
+    Fader|                      TrackVolume
+    VUMeter|                    TrackOutputMeter
+ZoneEnd
+
+
+Zone "MasterTrack"
+    MasterTrackNavigator
+    MasterFader                 TrackVolume
+    Control+MasterFader         FocusedFXParam
+ZoneEnd
+
+
+Zone "Send"
+    SendNavigator
+    DisplayUpper|               TrackSendNameDisplay
+    DisplayLower|               TrackSendVolumeDisplay
+    Mute|                       TrackSendMute
+    Fader|                      TrackSendVolume
+ZoneEnd
+
+
+Zone "FXMenu"
+    FXMenuNavigator
+    DisplayUpper|               FXMenuNameDisplay
+    DisplayLower|               NoAction
+    Rotary|                     NoAction
+    RotaryPush|                 GoFXSlot
+ZoneEnd

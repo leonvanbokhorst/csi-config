@@ -1,0 +1,10 @@
+Zone "VST3: Sibilance Stereo (Waves)"
+	FocusedFXNavigator
+
+	RotaryPush1	FXParam 2 "Lookahead"
+	Rotary1	FXParam 4 "Threshold"
+	Rotary2	FXParam 5 "Range"
+	Rotary3	FXParam 6 "Mode"
+	Rotary4	FXParam 3 "Detection"
+
+ZoneEnd

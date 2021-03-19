@@ -1,0 +1,60 @@
+// ------------------------------------------------------------
+// Behringer X-Touch - JS: 4-Band Splitter
+// by Michael Bodenbach
+// 02.12.2020
+// ------------------------------------------------------------
+// Version 0.1 / 02.12.2020
+// ------------------------------------------------------------
+// History:
+// 02.12.2020   Initial version
+// 08.12.2020    Upgrade to CSI 1.0
+// ------------------------------------------------------------
+// Todo:
+//                Not woking at the moment!
+//                ...
+// ------------------------------------------------------------
+Zone "JS: 4-Band Splitter" "Split 4"
+    //FocusedFXNavigator
+    SelectedTrackNavigator
+
+    DisplayUpper1         FXParamNameDisplay    "0"     "Cross 1"
+    DisplayLower1        FXParamValueDisplay    "0"
+    Fader1                FXParam 0        [ 1.0>22000.0 (1.0) ]
+    //Rotary1                FXParam 0        [ 1.0>22000.0 (1.0) ]
+
+    DisplayUpper2         FXParamNameDisplay    "1" "Cross 2"
+    DisplayLower2        FXParamValueDisplay    "1"
+    Fader2                FXParam 1            "Crossover 2 (Hz)"    [ 1.0>22000.0 (1.0) ]
+    Rotary2                FXParam 1            "Crossover 2 (Hz)"
+
+    DisplayUpper3         FXParamNameDisplay    "2" "Cross 3"
+    DisplayLower3        FXParamValueDisplay    "2"
+    Fader3                FXParam 2            "Crossover 3 (Hz)"    [ 1.0>22000.0 (1.0) ]
+    //Rotary3                FXParam 2            "Crossover 3 (Hz)"
+
+    // ------------------------------------------------------------
+    // Misc actions
+    // ------------------------------------------------------------
+    DisplayUpper4             FXParamNameDisplay    "4"     "Wet"
+    DisplayLower4            FXParamValueDisplay    "4"
+    Fader4                    FXParam 4            "Wet"
+    Rotary4                    FXParam 4            "Wet"
+
+    DisplayUpper5             FXParamNameDisplay    "3"     "Bypass"
+    DisplayLower5            FXParamValueDisplay    "3"
+    RotaryPush5             FXParam 3            [ 0.0 1.0 ]     "Bypass"
+
+    // ------------------------------------------------------------
+    // No actions
+    // ------------------------------------------------------------
+    RotaryPush1             NoAction
+    RotaryPush2             NoAction
+    RotaryPush3             NoAction
+    RotaryPush4             NoAction
+
+    RotaryPush6             NoAction
+    RotaryPush7             NoAction
+    RotaryPush8             NoAction
+
+ZoneEnd
+

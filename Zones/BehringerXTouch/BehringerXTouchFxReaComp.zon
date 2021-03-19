@@ -1,0 +1,66 @@
+// ------------------------------------------------------------
+// Behringer X-Touch - VST: ReaComp (Cockos)
+// by Michael Bodenbach
+// 26.03.2020
+// ------------------------------------------------------------
+// Version 0.2 / 10.04.2020
+// ------------------------------------------------------------
+// History:
+// 08.12.2020	Upgrade to CSI 1.0
+// 10.04.2020   Initial version
+// ------------------------------------------------------------
+// Todo:
+//				...
+// ------------------------------------------------------------
+Zone "VST: ReaComp (Cockos)" "ReaComp"
+	//FocusedFXNavigator
+	SelectedTrackNavigator
+
+	Mute1				Reaper					"_S&M_FXBYPSEL"									// SWS/S&M: Toggle selected FX bypass for selected tracks
+
+	DisplayUpper1		FXParamNameDisplay 		"0" 		"Thresh"
+	DisplayLower1 		FXParamNameDisplay 		"16" 		"AutoRelease"
+	Fader1 				FXParam 				"0"			"Thresh"
+	Rotary1 			FXParam 				"0"			"Thresh"
+	RotaryPush1  		FXParam 16				[ 0.0 1.0 ]	"AutoRelease"
+
+	DisplayUpper2		FXParamNameDisplay 		"2" 		"Attack"
+	DisplayLower2		NoAction
+	Fader2 				FXParam 				"2" 		"Attack" 
+	Rotary2 			FXParam 				"2" 		"Attack" 
+	RotaryPush2 		FXParam 2							"Attack" [ 0.0 0.003 0.006  ]
+
+	DisplayUpper3		FXParamNameDisplay 		"3" 		"Release"
+	DisplayLower3		NoAction
+    Fader3 				FXParam 				"3" 		"Release"
+	Rotary3 			FXParam 				"3" 		"Release"
+	RotaryPush3 		FXParam 3							"Release" [ 0.0 0.01 0.02  ]
+
+	DisplayUpper4		FXParamNameDisplay 		"1" 		"Ratio"
+	DisplayLower4 		FXParamNameDisplay 		"19" 		"Bypass"
+	Fader4 				FXParam 				"1" 		"Ratio"
+	Rotary4 			FXParam 				"1" 		"Ratio"
+	RotaryPush4 		FXParam 19   			[ 0.0 1.0 ]	"Bypass"
+
+	DisplayUpper5		FXParamNameDisplay 		"11" 		"Wet"
+	DisplayLower5 		FXParamNameDisplay 		"10" 		"Dry
+	Fader5 				FXParam 	   			"11" 		"Wet"
+	RotaryPush5 		FXParam 10				[ 0.0 1.0 ]	"Dry"
+
+	DisplayUpper6		NoAction
+ 	DisplayLower6 		FXParamNameDisplay 		"4" 		"PreComp"
+	DisplayLower6 		FXParamNameDisplay 		"15" 		"AutoMkUp"
+	Fader6 				FXParam 				"4" 		"Pre-comp"
+	RotaryPush6 		FXParam 15				[ 0.0 1.0 ]	"AutoMkUp"
+	
+	DisplayUpper7		FXParamNameDisplay 		"13" 		"RMS"
+	DisplayLower7 		FXParamNameDisplay 		"6" 		"LoP"
+	Fader7 				FXParam 				"13" 		"RMS size"
+	Rotary7 			FXParam 				"6" 		"Lowpass"
+
+	DisplayUpper8		FXParamNameDisplay 		"14" 		"Knee"
+	DisplayLower8 		FXParamNameDisplay 		"7" 		"HiP"
+	Fader8 				FxParam 				"14" 		"Knee"
+	Rotary8 			FXParam 				"7" 		"Hipass"
+	
+ZoneEnd

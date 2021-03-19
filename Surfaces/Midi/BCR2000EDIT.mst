@@ -1,0 +1,319 @@
+Widget RotaryG1
+	Fader7Bit b0 01 7f  
+	FB_Fader7bit b0 01 7f
+	Toggle 90 00 7f
+WidgetEnd
+
+Widget RotaryG2
+	Fader7Bit b0 02 7f
+	FB_Fader7Bit b0 02 7f
+	Toggle 90 00 7f
+WidgetEnd
+
+Widget RotaryG3
+	Fader7Bit b0 03 7f  
+	FB_Fader7Bit b0 03 7f
+	Toggle 90 00 7F
+WidgetEnd
+
+Widget RotaryG4
+	Fader7Bit b0 04 7f
+	FB_Fader7Bit b0 04 7f
+	Toggle 90 00 7f
+WidgetEnd
+
+Widget RotaryG5
+	Fader7Bit b0 05 7f
+	FB_Fader7Bit b0 05 7f
+	Toggle 90 00 7f
+WidgetEnd
+
+Widget RotaryG6
+	Fader7Bit b0 06 7f
+	FB_Fader7Bit b0 06 7f
+	Toggle 90 00 7f
+WidgetEnd
+
+Widget RotaryG7
+	Fader7Bit b0 07 7f
+	FB_Fader7Bit b0 07 7f
+	Toggle 90 00 7f
+WidgetEnd
+
+Widget RotaryG8
+	Fader7Bit b0 08 7f
+	FB_Fader7Bit b0 08 7f
+	Toggle 90 00 7f
+WidgetEnd
+
+/
+
+Widget RotaryPushG1
+	Press 90 00 7f 90 00 00
+WidgetEnd
+
+
+Widget RotaryPushG2
+	Press 90 01 7f 90 00 00
+WidgetEnd
+
+
+Widget RotaryPushG3
+	Press 90 02 7f 90 00 00
+WidgetEnd
+
+
+Widget RotaryPushG4 
+	Press 90 03 7f 90 00 00
+WidgetEnd
+
+
+Widget RotaryPushG5 
+	Press 90 04 7f 90 00 00
+WidgetEnd
+
+
+Widget RotaryPushG6 
+	Press 90 05 7f 90 00 00
+WidgetEnd
+
+Widget RotaryPushG7 
+	Press 90 06 7f 90 00 00
+WidgetEnd
+
+
+Widget RotaryPushG8
+	Press 90 07 7f 90 00 00
+WidgetEnd
+
+/
+
+Widget UpperButton1
+	Press 90 20 7f 90 20 00
+	FB_TwoState 90 20 7f 90 20 00
+WidgetEnd
+
+Widget UpperButton2
+	Press 90 21 7f 90 20 00
+	FB_TwoState 90 21 7f 90 21 00
+WidgetEnd
+
+Widget UpperButton3
+	Press 90 22 7f 90 20 00
+	FB_TwoState 90 22 7f 90 22 00
+WidgetEnd
+
+Widget UpperButton4
+	Press 90 23 7f 90 20 00
+	FB_TwoState 90 23 7f 90 23 00
+WidgetEnd
+
+Widget UpperButton5
+	Press 90 24 7f 90 20 00
+	FB_TwoState 90 24 7f 90 24 00
+WidgetEnd
+
+Widget UpperButton6
+	Press 90 25 7f 90 25 00
+	FB_TwoState 90 25 7f 90 25 00
+WidgetEnd
+
+Widget UpperButton7
+	Press 90 26 7f 90 26 00
+	FB_TwoState 90 26 7f 90 26 00
+WidgetEnd
+
+Widget UpperButton8
+	Press 90 27 7f 90 27 00
+	FB_TwoState 90 27 7f 90 27 00
+WidgetEnd
+
+/
+
+Widget LowerButton1
+	Press 90 28 7f 90 28 00
+	FB_TwoState 90 28 7f 90 28 00
+WidgetEnd
+
+Widget LowerButton2
+	Press 90 2a 7f 90 2a 00
+	FB_TwoState 90 2a 7f 90 2a 00
+WidgetEnd
+
+Widget LowerButton3
+	Press 90 2b 7f 90 2b 00
+	FB_TwoState 90 2b 7f 90 2b 00
+WidgetEnd
+
+Widget LowerButton4
+	Press 90 2c 7f 90 2c 00
+	FB_TwoState 90 2c 7f 90 2c 00
+WidgetEnd
+
+Widget LowerButton5
+	Press 90 2d 7f 90 2d 00
+	FB_TwoState 90 2d 7f 90 2d 00
+WidgetEnd
+
+Widget LowerButton6
+	Press 90 2e 7f 90 2e 00
+	FB_TwoState 90 2e 7f 90 2e 00
+WidgetEnd
+
+Widget LowerButton7
+	Press 90 2e 7f 90 2e 00
+	FB_TwoState 90 2e 7f 90 2e 00
+WidgetEnd
+
+Widget LowerButton8
+	Press 90 2f 7f 90 2f 00
+	FB_TwoState 90 2f 7f 90 2f 00 
+WidgetEnd
+
+/
+
+Widget RotaryA1
+     Fader7bit b0 21 7f
+     FB_Fader7bit b0 21 7f
+WidgetEnd
+
+Widget RotaryA2
+     Fader7bit b0 22 7f
+     FB_Fader7bit b0 22 7f
+WidgetEnd
+
+Widget RotaryA3
+     Fader7bit b0 23 7f
+     FB_Fader7bit b0 23 7f
+WidgetEnd
+
+Widget RotaryA4
+     Fader7bit b0 24 7f
+     FB_Fader7bit b0 24 7f
+WidgetEnd
+
+Widget RotaryA5
+     Fader7bit b0 25 7f
+     FB_Fader7bit b0 25 7f
+WidgetEnd
+
+Widget RotaryA6
+     Fader7bit b0 26 7f
+     FB_Fader7bit b0 26 7f
+WidgetEnd
+
+Widget RotaryA7
+     Fader7bit b0 27 7f
+     FB_Fader7bit b0 27 7f
+WidgetEnd
+
+Widget RotaryA8
+     Fader7bit b0 28 7f
+     FB_Fader7bit b0 28 7f
+WidgetEnd
+
+/
+
+Widget RotaryB1
+     Fader7bit b0 29 7f
+     FB_Fader7bit b0 29 7f
+WidgetEnd
+
+Widget RotaryB2
+     Fader7bit b0 2a 7f
+     FB_Fader7bit b0 2a 7f
+WidgetEnd
+
+Widget RotaryB3
+     Fader7bit b0 2b 7f
+     FB_Fader7bit b0 2b 7f
+WidgetEnd
+
+Widget RotaryB4
+     Fader7bit b0 2c 7f
+     FB_Fader7bit b0 2c 7f
+WidgetEnd
+
+Widget RotaryB5
+     Fader7bit b0 2d 7f
+     FB_Fader7bit b0 2d 7f
+WidgetEnd
+
+Widget RotaryB6
+     Fader7bit b0 2e 7f
+     FB_Fader7bit b0 2e 7f
+WidgetEnd
+
+Widget RotaryB7
+     Fader7bit b0 2f 7f
+     FB_Fader7bit b0 2f 7f
+WidgetEnd
+
+Widget RotaryB8
+     Fader7bit b0 30 7f
+     FB_Fader7bit b0 30 7f
+WidgetEnd
+
+/
+
+Widget RotaryC1
+     Fader7bit b0 31 7f
+     FB_Fader7bit b0 31 7f
+WidgetEnd
+
+Widget RotaryC2
+     Fader7bit b0 32 7f
+     FB_Fader7bit b0 32 7f
+WidgetEnd
+
+Widget RotaryC3
+     Fader7bit b0 33 7f
+     FB_Fader7bit b0 33 7f
+WidgetEnd
+
+Widget RotaryC4
+     Fader7bit b0 34 7f
+     FB_Fader7bit b0 34 7f
+WidgetEnd
+
+Widget RotaryC5
+     Fader7bit b0 35 7f
+     FB_Fader7bit b0 35 7f
+WidgetEnd
+
+Widget RotaryC6
+     Fader7bit b0 36 7f
+     FB_Fader7bit b0 36 7f
+WidgetEndRotary
+
+Widget RotaryC7
+     Fader7bit b0 37 7f
+     FB_Fader7bit b0 37 7f
+WidgetEnd
+
+Widget RotaryC8
+     Fader7bit b0 38 7f
+     FB_Fader7bit b0 38 7f
+WidgetEnd
+
+/
+
+Widget UserButton1
+	Press 90 30 7f 90 30 00
+	FB_TwoState 90 30 7f 90 30 00
+WidgetEnd
+
+Widget UserButton2
+	Press 90 31 7f 90 31 00
+	FB_TwoState 90 31 7f 90 31 00
+WidgetEnd
+
+Widget UserButton3
+	Press 90 32 7f 90 32 00
+	FB_TwoState 90 32 7f 90 32 00
+WidgetEnd
+
+Widget UserButton4
+	Press 90 33 7f 90 33 00
+	FB_TwoState 90 33 7f 90 33 00
+WidgetEnd

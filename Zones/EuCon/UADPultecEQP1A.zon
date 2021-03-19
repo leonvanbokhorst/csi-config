@@ -1,0 +1,31 @@
+Zone "VST: UAD Pultec EQP-1A (Universal Audio, Inc.)" "EQP1A"
+
+	SelectedTrackNavigator
+
+	InvertFB+FX_SwitchUpper1Ch1 	FXParam "10" "Bypass" [ 0.0 1.0 ]
+	FX_Display1Ch1 		FXParamNameDisplay "10" "PulEQP1A"
+
+	FX_Rotary1Ch2 		FXParam "0" "Low Freq" "0"
+	FX_Display1Ch2 		FXParamValueDisplay "0"
+
+	FX_Rotary1Ch3 		FXParam "1" "LF Boost" "2"
+	FX_Display1Ch3 		FXParamNameDisplay "1" "LF Boost"
+
+	FX_Rotary1Ch4 		FXParam "2" "LF Atten" "2" 
+	FX_Display1Ch4 		FXParamNameDisplay "2" "LF Atten"
+
+	FX_Rotary1Ch5 		FXParam "3" "High Freq" "0" 
+	FX_Display1Ch5 		FXParamValueDisplay "3"
+
+	FX_Rotary1Ch6 		FXParam "4" "HF Boost" "2" 
+	FX_Display1Ch6 		FXParamNameDisplay "4" "HF Boost"
+
+	FX_Rotary1Ch7 		FXParam "5" "HF Q" "3" 
+	FX_Display1Ch7 		FXParamNameDisplay "5" "HF Q"
+
+	FX_Rotary1Ch8 		FXParam "7" "HF Atten" "2" 
+	FX_Display1Ch8 		FXParamNameDisplay "7" "HF Atten"
+
+	FX_Rotary1Ch9 		FXParam "6" "HF Atten Freq" "0" 
+	FX_Display1Ch9 		FXParamValueDisplay "6"
+ZoneEnd

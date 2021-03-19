@@ -1,0 +1,15 @@
+Zone "VST3: RCompressor Stereo (Waves)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 3 "Threshold"
+	Rotary2	FXParam 5 "Ratio"
+	Rotary3	FXParam 4 "Attack"
+	Rotary4	FXParam 8 "Release"
+
+	Alt+Rotary1	FXParam 2 "Gain"
+
+	Rotary5	FXParam 6 "ARC / Manual"
+	Rotary6	FXParam 7 "Warm / Smooth"
+	Rotary7	FXParam 9 "Electro / Opto"
+
+ZoneEnd

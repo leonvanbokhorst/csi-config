@@ -1,0 +1,17 @@
+Zone "VST3: H-Delay Stereo (Waves)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 3 "Delay BPM"
+	Alt+Rotary1	FXParam 5 "PingPong"
+
+	Rotary2	FXParam 4 "Feedback"
+	Alt+Rotary2	FXParam 10 "LoFi"
+
+	Rotary3	FXParam 13 "HiPass"
+	Alt+Rotary3	FXParam 14 "LoPass"
+
+	Rotary4	FXParam 7 "Mix"
+	Alt+Rotary4	FXParam 8 "Output"
+
+	Shift+Rotary4	FXParam 9 "Analog"
+ZoneEnd

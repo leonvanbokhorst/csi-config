@@ -1,0 +1,88 @@
+Widget Volume
+	Fader7Bit b0 0a 7f
+WidgetEnd
+
+Widget Leakage
+	Fader7Bit b0 4e 7f
+WidgetEnd
+
+Widget Chorale
+	Press b0 15 7f
+WidgetEnd
+
+Widget Tremolo
+	Press b0 16 7f
+WidgetEnd
+
+Widget LeslieStop
+	Press b0 13 7f
+WidgetEnd
+
+Widget LeslieSlow
+	Press b0 14 40
+WidgetEnd
+
+Widget LeslieFast
+	Press b0 14 7f
+WidgetEnd
+
+Widget PercOff
+	Press b0 17 7f
+WidgetEnd
+
+Widget PercOn
+	Press b0 18 7f
+WidgetEnd
+
+Widget Perc2nd
+	Press b0 19 7f
+WidgetEnd
+
+Widget Perc3rd
+	Press b0 1a 7f
+WidgetEnd
+
+Widget C3Off
+	Press b0 1b 7f
+WidgetEnd
+
+Widget C3On
+	Press b0 1c 7f
+WidgetEnd
+
+Widget Drawbar_16
+	Fader7Bit b0 49 7f
+WidgetEnd
+
+Widget Drawbar_5_1_3
+	Fader7Bit b0 4b 7f
+WidgetEnd
+
+Widget Drawbar_8
+	Fader7Bit b0 48 7f
+WidgetEnd
+
+Widget Drawbar_4
+	Fader7Bit b0 5b 7f
+WidgetEnd
+
+Widget Drawbar_2_2_3
+	Fader7Bit b0 5c 7f
+WidgetEnd
+
+Widget Drawbar_2
+	Fader7Bit b0 5d 7f
+WidgetEnd
+
+Widget Drawbar_1_3_5
+	Fader7Bit b0 5e 7f
+WidgetEnd
+
+Widget Drawbar_1_1_3
+	Fader7Bit b0 5f 7f
+WidgetEnd
+
+Widget Drawbar_1
+	Fader7Bit b0 07 7f
+WidgetEnd
+

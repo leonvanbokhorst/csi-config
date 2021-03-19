@@ -1,0 +1,123 @@
+////////////////////////////////////////////////////////NOTES////////////////////////////////////////////////////////
+//Requires use of MCU Std mode on the X-Touch One. If not working, enter one of the MCU DAW modes and hit the      // 
+//Channel Select button a few times until fader1 (address e0) is active, then return to MCU STD mode.              // 
+//Developed using the 1.04 firmware for the X-Touch One. May not work using the 1.07 firmware.                     // 
+//Some actions require SWS Extensions be installed.                                                                //
+//Send zone only works for Send1 due to the nature of the surface.                                                 //
+//To setup the Device in CSI use 1 Faders, 1 Sends, and 0 FXMenu.                                                  //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Zone Home
+     IncludedZones
+          "Buttons"
+          "Channel"
+          "MasterChannel"
+          "JogWheel"
+     IncludedZonesEnd
+ZoneEnd
+
+
+Zone "Buttons"
+     Scrub                              Shift
+     TimeDisplay                        TimeDisplay
+     BPM-Time                           CycleTimeDisplayModes
+     F1                                 Reaper 40078                            // Toggle Mixer
+     Shift+F1                           GoZone Home
+     F2                                 Reaper 40906                            // Toggle Track Manager
+     Shift+F2                           GoZone FocusedFXParam                   // Assigns Fader1 to the last touch FX parameter (Shift+F1 to turn off)
+     F3                                 Reaper 40271                            // Toggle FX Browser
+     F4                                 Reaper 40716                            // Toggle MIDI Editor
+     F5                                 Reaper _S&M_TOGLFXCHAIN                 // Toggle Show FX Chain
+     F6                                 Reaper 40846                            // Show FX Chain for master track 
+     Shift+F6                           MapSelectedTrackSendsToWidgets          // Turns on the Sends zone
+     Marker                             Reaper 40157                            // Insert Marker
+     Nudge                              Reaper "_ZENAKIOS_NUDGEITEMVOLUP"       // Nudge item volume up 1db
+     Shift+Nudge                        Reaper "_XENAKIOS_NUDGEITEMVOLDOWN"     // Nudge item volume up 1db
+     Cycle                              CycleTimeline
+     Shift+Cycle                        CycleTrackAutoMode
+     Drop                               Reaper 40029                            // Undo
+     Shift+Drop                         Reaper 40030                            // Redo
+     Replace                            Reaper 1157                             // Toggle Snapping
+     Shift+Replace                      Reaper 40145                            // Toggle Grid
+     Click                              Reaper 40364                            // Metronome
+     Shift+Click                        Reaper 40363                            // Show Metronome Settings
+     Solo                               Reaper 40745                            // Toggle solo in front
+     Rewind                             Rewind
+     Shift+Rewind                       Reaper 40042                            //go to start of project
+     FastForward                        FastForward
+     Shift+FastForward                  Reaper 40043                            //go to end of project
+     Stop                               Stop
+     Play                               Play
+     Record                             Record
+     Shift+Record                       Record
+     BankLeft                           TrackBank "-8"
+     BankRight                          TrackBank "8"
+     ChannelLeft                        TrackBank "-1"
+     ChannelRight                       TrackBank "1"
+     Zoom                               Reaper 40113                            // Zoom selected track
+     Up                                 Reaper 40111                            // Zoom in vertical
+     Shift+Up                           Reaper 40113                            // Toggle track height to maximum
+     Down                               Reaper 40112                            // Zoom out vertical
+     Right                              Reaper 1012                             // Zoom in horizontal
+     Left                               Reaper 1011                             // Zoom out horizontal                                      
+     Shift+Down                         Reaper 40727                            // Minimize all tracks
+ZoneEnd
+
+Zone "Channel"
+     TrackNavigator
+     DisplayUpper|                      TrackNameDisplay
+     DisplayLower|                      MCUTrackPanDisplay Rotary|
+     Fader|                             TrackVolume
+     RotaryPush|                        NoAction
+     Rotary|                            MCUTrackPan  [ (0.001,0.005,0.025,0.05,0.1) ]
+     VUMeter|                           TrackOutputMeter
+     Solo|                              TrackSolo
+     Mute|                              TrackMute
+     RecordArm|                         TrackRecordArm
+     Shift+RecordArm|                   CycleTrackAutoMode
+     Select|                            TrackUniqueSelect
+     Shift+Select                       TrackCycleAutoMode
+     Hold+Select|                       TrackUniqueSelect
+     Hold+Select|                       Reaper 41665                            //Mixer: Toggle show tracks in folders in mixer
+     Hold+Select|                       TrackToggleVCASpill
+ZoneEnd
+
+Zone "MasterChannel"
+     MasterTrackNavigator
+     MasterFader                        TrackVolume
+ZoneEnd
+
+Zone "FocusedFXParam"
+     Fader1                             FocusedFXParam
+     DisplayUpper1                      FocusedFXParamNameDisplay
+     DisplayLower1                      FocusedFXParamValueDisplay
+     Shift+F1                           GoZone Home
+ZoneEnd
+
+Zone "Send"                             //Only works for Send1 due to surface design, Shift+F1 to go back Home
+     SendNavigator
+     DisplayUpper|                      TrackSendNameDisplay
+     DisplayLower|                      TrackSendVolumeDisplay
+     Mute|                              TrackSendMute
+     Fader|                             TrackSendVolume
+     Rotary|                            TrackSendPan
+     RotaryPush|                        NoAction
+ZoneEnd
+
+Zone "JogWheel"
+     JogWheelRotaryCW                   Reaper 40141
+     JogWheelRotaryCW2                  Reaper 40141
+     JogWheelRotaryCW3                  Reaper 40141
+     JogWheelRotaryCW4                  Reaper 40141
+     JogWheelRotaryCW5                  Reaper 40141
+     JogWheelRotaryCW6                  Reaper 40141
+     JogWheelRotaryCW7                  Reaper 40141
+
+     JogWheelRotaryCCW                  Reaper 40140
+     JogWheelRotaryCCW2                 Reaper 40140
+     JogWheelRotaryCCW3                 Reaper 40140
+     JogWheelRotaryCCW4                 Reaper 40140
+     JogWheelRotaryCCW5                 Reaper 40140
+     JogWheelRotaryCCW6                 Reaper 40140
+     JogWheelRotaryCCW7                 Reaper 40140
+ZoneEnd

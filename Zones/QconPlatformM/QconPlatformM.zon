@@ -1,0 +1,95 @@
+Zone Home
+IncludedZones
+"Buttons"
+"Channel"
+"MasterChannel"
+"JogWheelHack"
+IncludedZonesEnd
+ZoneEnd
+
+Zone "Buttons"
+ChannelLeft TrackBank "-1"
+ChannelRight TrackBank "1"
+BankLeft TrackBank "-8"
+BankRight TrackBank "8"
+Mixer Reaper "40078" // TOGGLE MIXER VISIBLE
+Read TrackAutoMode "1"
+Shift+Read GlobalAutoMode "1"
+Write TrackAutoMode "3"
+Shift+Write GlobalAutoMode "3"
+Loop CycleTimeline
+Rewind Rewind
+FastForward FastForward
+Stop Stop
+Play Play
+Record Record
+Zoom NoAction
+JogWheelPush ToggleVCAMode
+ZoneEnd
+
+Zone "Channel"
+     TrackNavigator
+     DisplayLower| TrackNameDisplay
+     DisplayUpper| MCUTrackPanDisplay Rotary|
+     Rotary| MCUTrackPan [ (0.005,0.015,0.025,0.05,0.1) ]
+     RecordArm| TrackRecordArm
+     Solo| TrackSolo
+     Mute| TrackMute
+     Select| TrackUniqueSelect
+     Shift+Select| TrackRangeSelect
+     Control+Select| TrackSelect
+     Shift+Control+Select| TogglePin
+     Option+Select| TrackFolderDive
+     Alt+Select| TrackUniqueSelect
+     Alt+Select| Reaper "41665"
+     Alt+Select| TrackToggleVCASpill
+     Fader| TrackVolume
+ZoneEnd
+
+Zone "Send"
+      SendNavigator
+      DisplayUpper| TrackSendNameDisplay
+      DisplayUpper| TrackSendVolumeDisplay
+      Mute| TrackSendMute
+      Fader| TrackSendVolume
+      Rotary| TrackSendPan
+      RotaryPush| NoAction
+ZoneEnd
+
+Zone "MasterChannel"
+	MasterTrackNavigator
+	MasterFader TrackVolume
+ZoneEnd
+
+Zone "FXMenu"
+     FXMenuNavigator
+     DisplayUpper| FXMenuNameDisplay
+     DisplayLower| NoAction
+     Rotary| NoAction
+     RotaryPush| GoFXSlot
+ZoneEnd
+
+Zone "JogWheelHack"
+     JogWheelRotaryCW       Reaper 40141
+     JogWheelRotaryCW2      Reaper 40141
+     JogWheelRotaryCW3      Reaper 40141
+     JogWheelRotaryCW4      Reaper 40141
+     JogWheelRotaryCW5      Reaper 40141
+     JogWheelRotaryCW6      Reaper 40141
+     JogWheelRotaryCW7      Reaper 40141
+
+     JogWheelRotaryCCW      Reaper 40140
+     JogWheelRotaryCCW2     Reaper 40140
+     JogWheelRotaryCCW3     Reaper 40140
+     JogWheelRotaryCCW4     Reaper 40140
+     JogWheelRotaryCCW5     Reaper 40140
+     JogWheelRotaryCCW6     Reaper 40140
+     JogWheelRotaryCCW7     Reaper 40140
+ZoneEnd
+
+
+
+
+
+
+     

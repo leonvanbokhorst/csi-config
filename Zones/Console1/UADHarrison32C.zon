@@ -1,0 +1,15 @@
+Zone "VST: UAD Harrison 32C (Universal Audio, Inc.)" "Har32C"
+	SelectedTrackNavigator
+	HiCut 			FXParam "1" 	"HiPass"
+	LoCut 			FXParam "2" 	"LowPass"
+	HiGain 			FXParam "12" 	"HiGain"
+	HiFrequency 		FXParam "11" 	"HiFreq"
+	HiMidGain 		FXParam "10"	"HiMidGain"
+	HiMidFrequency 		FXParam "9" 	"HiMidFreq"
+	LoMidGain 		FXParam "8" 	"LoMidGain"
+	LoMidFrequency 		FXParam "7" 	"LoMidFreq"
+	LoGain 			FXParam "5" 	"LowGain"
+	LoFrequency 		FXParam "4" 	"LowFreq"
+	InvertFB+Equalizer	FXParam "16" 	"Bypass" [ 0.0 1.0 ]
+	Parallel 		FXParam "17" 	"Wet"
+ZoneEnd

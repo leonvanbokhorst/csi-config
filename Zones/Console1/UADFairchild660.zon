@@ -1,0 +1,11 @@
+Zone "VST: UAD Fairchild 660 (Universal Audio, Inc.)" "F660"
+	SelectedTrackNavigator
+	Threshold 			FXParam 2 "Thresh"
+	Character 			FXParam 7 "Output"
+	Drive 				FXParam 0 "Meter"
+	Attack 				FXParam 9 "Headroom"
+	Release 			FXParam 1 "Input"
+	Ratio 				FXParam 3 "Time Const"
+	InvertFB+Compressor		FXParam 11 "Bypass" [ 0.0 1.0 ]
+	Parallel 			FXParam 12 "Wet"
+ZoneEnd

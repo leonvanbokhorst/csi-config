@@ -1,0 +1,24 @@
+// ------------------------------------------------------------
+// Behringer X-Touch - JS: 4-Band Splitter
+// by Michael Bodenbach
+// 02.12.2020
+// ------------------------------------------------------------
+// Version 0.1 / 02.12.2020
+// ------------------------------------------------------------
+// History:
+// 02.12.2020   Initial version
+// ------------------------------------------------------------
+// Todo:
+//				...
+// ------------------------------------------------------------
+Zone "JS: 4-Band Splitter" "Split 4"
+    //FocusedFXNavigator
+	SelectedTrackNavigator
+    
+	DisplayUpper8 		FixedTextDisplay				"Split 4"
+	DisplayLower8		FixedTextDisplay				"Active"
+
+	Fader8				NoAction
+	Rotary8				NoAction
+
+ZoneEnd

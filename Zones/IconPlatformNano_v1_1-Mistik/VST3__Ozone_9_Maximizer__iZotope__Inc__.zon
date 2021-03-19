@@ -1,0 +1,12 @@
+Zone "VST3: Ozone 9 Maximizer (iZotope, Inc.)"
+	FocusedFXNavigator
+
+	Alt+Rotary1	FXParam 8 "MAX: Mode" [ 0.0 0.25 0.5 0.75 1.0 ]
+
+	Rotary1	FXParam 9 "MAX: Threshold"
+	Rotary2	FXParam 10 "MAX: Ceiling"
+	Rotary3	FXParam 12 "MAX: Character"
+
+	Rotary4	FXParam 19 "MAX: Transient Shaping Amt"
+
+ZoneEnd

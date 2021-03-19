@@ -1,0 +1,30 @@
+Zone "VST: UAD Harrison 32C (Universal Audio, Inc.)" "Har32C"
+	SelectedTrackNavigator
+
+	InvertFB+FX_SwitchUpper1Ch1 FXParam "16" "Bypass" [ 0.0 1.0 ]
+	FX_Display1Ch1 	FXParamNameDisplay "0" "Harsn32C"
+
+	FX_Rotary1Ch2 	FXParam "5" "LowGain" "1"
+	FX_Display1Ch2 	FXParamNameDisplay "5" "Low"
+
+	FX_Rotary1Ch3 	FXParam "4" "LowFreq" "0" 	
+	FX_Display1Ch3 	FXParamValueDisplay "4"
+
+	FX_Rotary1Ch4 	FXParam "8" "LoMidGain" "1"
+	FX_Display1Ch4 	FXParamNameDisplay "8" "Lo Mid"
+
+	FX_Rotary1Ch5 	FXParam "7" "LoMidFreq" "0"
+	FX_Display1Ch5 	FXParamValueDisplay "7"
+
+	FX_Rotary1Ch6 	FXParam "10" "HiMidGain" "1"
+	FX_Display1Ch6 	FXParamNameDisplay "10" "Hi Mid"
+
+	FX_Rotary1Ch7 	FXParam "9" "HiMidFreq" "0"
+	FX_Display1Ch7 	FXParamValueDisplay "9"
+
+	FX_Rotary1Ch8	FXParam "12" "HiGain" "1"
+	FX_Display1Ch8 	FXParamNameDisplay "12" "High"
+
+	FX_Rotary1Ch9 	FXParam "11" "HiFreq" "0"
+	FX_Display1Ch9 	FXParamValueDisplay "11"
+ZoneEnd

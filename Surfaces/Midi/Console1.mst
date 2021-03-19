@@ -1,0 +1,213 @@
+Widget EncoderTest
+	Encoder b0 3a 7f [  < 41-48 > 01-08  ]
+WidgetEnd
+
+Widget Preset
+	AnyPress b0 3a 7f 
+	FB_TwoState b0 3a 7f b0 3a 00
+WidgetEnd
+
+Widget Mode
+	AnyPress b0 68 7f b0 68 00
+	FB_TwoState b0 68 7f b0 68 00
+WidgetEnd
+
+Widget ChannelLeft
+	AnyPress b0 61 7f b0 61 00
+	FB_TwoState b0 61 7f b0 61 00
+WidgetEnd
+
+Widget ChannelRight
+	AnyPress b0 60 7f b0 60 00
+	FB_TwoState b0 60 7f b0 60 00
+WidgetEnd
+
+Widget DisplayFX
+	AnyPress b0 66 7f
+	FB_TwoState b0 66 7f b0 66 00
+WidgetEnd
+
+Widget Order
+	AnyPress b0 0e 7f b0 0e 00
+	FB_TwoState b0 0e 7f b0 0e 00
+WidgetEnd
+
+Widget ExternalSidechain
+	AnyPress b0 11 7f b0 11 00
+	FB_TwoState b0 11 7f b0 11 00
+WidgetEnd
+
+Widget FiltersToComAnyPressor
+	AnyPress b0 3d 7f b0 3d 00
+	FB_TwoState b0 3d 7f b0 3d 00
+WidgetEnd
+
+Widget HiCut
+	Fader7Bit b0 69 7f
+	FB_Fader7Bit b0 69 7f
+WidgetEnd
+
+Widget LoCut
+	Fader7Bit b0 67 7f
+	FB_Fader7Bit b0 67 7f
+WidgetEnd
+
+Widget PhaseInvert
+	AnyPress b0 6c 7f b0 6c 00
+	FB_TwoState b0 6c 7f b0 6c 00
+WidgetEnd
+
+Widget Shape
+	AnyPress b0 35 7f
+	FB_TwoState b0 35 7f b0 35 00
+WidgetEnd
+
+Widget HardGate
+	AnyPress b0 3b 7f b0 3b 00
+	FB_TwoState b0 3b 7f b0 3b 00
+WidgetEnd
+
+Widget Equalizer
+	AnyPress b0 50 7f b0 50 00
+	FB_TwoState b0 50 7f b0 50 00
+WidgetEnd
+
+Widget LoCurve
+	AnyPress b0 5d 7f b0 5d 00
+	FB_TwoState b0 5d 7f b0 5d 00
+WidgetEnd
+
+Widget HiCurve
+	AnyPress b0 41 7f b0 41 00
+	FB_TwoState b0 41 7f b0 41 00
+WidgetEnd
+
+Widget HiGain
+	Fader7Bit b0 52 7f
+	FB_Fader7Bit b0 52 7f
+WidgetEnd
+
+Widget HiFrequency
+	Fader7Bit b0 53 7f
+	FB_Fader7Bit b0 53 7f
+WidgetEnd
+
+Widget HiMidGain
+	Fader7Bit b0 55 7f
+	FB_Fader7Bit b0 55 7f
+WidgetEnd
+
+Widget HiMidFrequency
+	Fader7Bit b0 56 7f
+	FB_Fader7Bit b0 56 7f
+WidgetEnd
+
+Widget HiMidQ
+	Fader7Bit b0 57 7f
+	FB_Fader7Bit b0 57 7f
+WidgetEnd
+
+Widget LoMidGain
+	Fader7Bit b0 58 7f
+	FB_Fader7Bit b0 58 7f
+WidgetEnd
+
+Widget LoMidFrequency
+	Fader7Bit b0 59 7f
+	FB_Fader7Bit b0 59 7f
+WidgetEnd
+
+Widget LoMidQ
+	Fader7Bit b0 5a 7f
+	FB_Fader7Bit b0 5a 7f
+WidgetEnd
+
+Widget LoGain
+	Fader7Bit b0 5b 7f
+	FB_Fader7Bit b0 5b 7f
+WidgetEnd
+
+Widget LoFrequency
+	Fader7Bit b0 5c 7f
+	FB_Fader7Bit b0 5c 7f
+WidgetEnd
+
+Widget Compressor
+	AnyPress b0 2e 7f b0 2e 00
+	FB_TwoState b0 2e 7f b0 2e 00
+WidgetEnd
+
+Widget Threshold
+	Fader7Bit b0 2f 7f
+	FB_Fader7Bit b0 2f 7f
+WidgetEnd
+
+Widget Release
+	Fader7Bit b0 30 7f
+	FB_Fader7Bit b0 30 7f
+WidgetEnd
+
+Widget Ratio
+	Fader7Bit b0 31 7f
+	FB_Fader7Bit b0 31 7f
+WidgetEnd
+
+Widget Parallel
+	Fader7Bit b0 32 7f
+	FB_Fader7Bit b0 32 7f
+WidgetEnd
+
+Widget Attack
+	Fader7Bit b0 33 7f
+	FB_Fader7Bit b0 33 7f
+WidgetEnd
+
+Widget Drive
+	Fader7Bit b0 0f 7f
+	FB_Fader7Bit b0 0f 7f
+WidgetEnd
+
+Widget Character
+	Fader7Bit b0 12 7f
+	FB_Fader7Bit b0 12 7f
+WidgetEnd
+
+Widget CompressorMeter
+	FB_GainReductionMeter b0 73 00
+WidgetEnd
+
+Widget InputMeterLeft
+	FB_VUMeter b0 6e 00
+WidgetEnd
+
+Widget InputMeterRight
+	FB_VUMeter b0 6f 00
+WidgetEnd
+
+Widget OutputMeterLeft
+	FB_VUMeter b0 70 00
+WidgetEnd
+
+Widget OutputMeterRight
+	FB_VUMeter b0 71 00
+WidgetEnd
+
+Widget Volume
+	Fader7Bit b0 07 7f
+	FB_Fader7Bit b0 07 7f
+WidgetEnd
+
+Widget Pan
+	Fader7Bit b0 0a 7f
+	FB_Fader7Bit b0 0a 7f
+WidgetEnd
+
+Widget Mute
+	AnyPress b0 0c 7f
+	FB_TwoState b0 0c 7f b0 0c 00
+WidgetEnd
+
+Widget Solo
+	AnyPress b0 0d 7f 
+	FB_TwoState b0 0d 7f b0 0d 00
+WidgetEnd

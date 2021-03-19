@@ -1,0 +1,38 @@
+Zone "VST: UAD Fairchild 660 (Universal Audio, Inc.)" "F660"
+
+	SelectedTrackNavigator
+
+	InvertFB+FX_SwitchUpper2Ch1 	FXParam "11" "Bypass" [ 0.0 1.0 ] 
+	FX_Display2Ch1 	FXParamNameDisplay "11" "FChld660"
+
+	FX_Rotary2Ch2 	FXParam "1" "Input" "2"
+	FX_Display2Ch2 	FXParamNameDisplay "1" "Input"
+
+	FX_Rotary2Ch3 	FXParam "2" "Thresh" "2"
+	FX_Display2Ch3 	FXParamNameDisplay "2" "Thresh"
+
+	FX_Rotary2Ch4 	FXParam "3" "Time Const" "0"
+	FX_Display2Ch4 	FXParamValueDisplay "3"
+
+	FX_Rotary2Ch5 	FXParam "7" "Output" "2"
+	FX_Display2Ch5 	FXParamNameDisplay "7" "Output"
+
+	FX_Rotary2Ch6 	FXParam "0" "Meter" "1"
+	FX_Display2Ch6 	FXParamValueDisplay "0"
+
+	FX_Rotary2Ch7 	FXParam "8" "Mix" "2"
+	FX_Display2Ch7 	FXParamNameDisplay "8" "Mix"
+
+	FX_Rotary2Ch8 	FXParam "5" "Bal" "2"
+	FX_Display2Ch8 	FXParamNameDisplay "5" "Bal"
+
+	FX_Rotary2Ch9 	FXParam "6" "DC Thr" "2"
+	FX_Display2Ch9 	FXParamNameDisplay "6" "DC Thr"
+
+	FX_Rotary2Ch10 	FXParam "9" "Headroom" "2"
+	FX_Display2Ch10 FXParamNameDisplay "9" "Headroom"
+
+	FX_Rotary2Ch11 	FXParam "4" "SC Filt" "2"
+	FX_Display2Ch11	FXParamNameDisplay "4" "SC Filt"
+ZoneEnd
+

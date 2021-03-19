@@ -1,0 +1,23 @@
+// ------------------------------------------------------------
+// Behringer X-Touch Extender - VST: ReaComp (Cockos)
+// by Michael Bodenbach
+// 26.03.2020
+// ------------------------------------------------------------
+// Version 0.2 / 10.04.2020
+// ------------------------------------------------------------
+// History:
+// 10.04.2020   Initial version
+// ------------------------------------------------------------
+// Todo:
+//				...
+// ------------------------------------------------------------
+Zone "VST: ReaComp (Cockos)" "ReaComp"
+    //FocusedFXNavigator
+	SelectedTrackNavigator
+    
+	DisplayUpper8 		FixedTextDisplay				"ReaComp"
+	DisplayLower8		FixedTextDisplay				"Active"
+	Fader8				NoAction
+	Rotary8				NoAction
+
+ZoneEnd

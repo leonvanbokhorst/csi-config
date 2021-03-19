@@ -1,0 +1,26 @@
+Zone "Home"
+	OnTrackSelection	GoZone "Channel"
+	OnTrackSelection 	MapSelectedTrackFXToWidgets
+/	OnTrackSelection 	Reaper "_S&M_SHOWFXCHAIN1"
+/	OnTrackSelection 	MapSelectedTrackSendsToWidgets
+/	OnFXFocus		MapFocusedFXToWidgets
+	Preset 			GoZone "Home"
+	ChannelLeft 		TrackBank "-1"
+	ChannelRight 		TrackBank "1"
+	Shape 			ToggleLearnMode
+	Option+Volume 		FocusedFXParam
+ZoneEnd
+
+Zone "Channel"
+	SelectedTrackNavigator
+	InputMeterLeft 		TrackOutputMeter "0"
+	InputMeterRight		TrackOutputMeter "1"
+	OutputMeterLeft 	TrackOutputMeter "0"
+	OutputMeterRight	TrackOutputMeter "1"
+	Volume 			TrackVolume
+	Control+Volume 		TrackPanWidth	"1"
+	Shift+Volume 		TrackPan 	"0"
+	Option+Volume 		FocusedFXParam
+	Mute 			TrackMute
+	Solo 			TrackSolo
+ZoneEnd

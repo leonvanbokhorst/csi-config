@@ -1,0 +1,145 @@
+Widget Input
+	Control /Input
+	FB_Processor /Input
+WidgetEnd
+
+Widget Ch2UlHi
+	Control /Ch2UlHi
+	FB_Processor /Ch2UlHi
+WidgetEnd
+
+Widget Ch2UlLo
+	Control /Ch2UlLo
+	FB_Processor /Ch2UlLo
+WidgetEnd
+
+Widget Ch2Vol
+	Control /Ch2Vol
+	FB_Processor /Ch2Vol
+WidgetEnd
+
+Widget Ch2Tr
+	Control /Ch2Tr
+	FB_Processor /Ch2Tr
+WidgetEnd
+
+Widget Ch2Bass
+	Control /Ch2Bass
+	FB_Processor /Ch2Bass
+WidgetEnd
+
+Widget Program
+	Control /Program
+	FB_Processor /Program
+WidgetEnd
+
+Widget Bass
+	Control /BASS
+	FB_Processor /BASS
+WidgetEnd
+
+Widget Mid
+	Control /MID
+	FB_Processor /MID
+WidgetEnd
+
+Widget Crossover
+	Control /CROSSOVER
+	FB_Processor /CROSSOVER
+WidgetEnd
+
+Widget Treble_Decay
+	Control /TREBLEDECAY
+	FB_Processor /TREBLEDECAY
+WidgetEnd
+
+Widget Depth
+	Control /DEPTH
+	FB_Processor /DEPTH
+WidgetEnd
+
+Widget Pre-delay
+	Control /PRE-DELAY
+	FB_Processor /PRE-DELAY
+WidgetEnd
+
+Widget Immed
+	Control /IMMED
+	FB_Processor /IMMED
+WidgetEnd
+
+Widget Sys_Noise
+	Control /Sys_Noise
+	FB_Processor /Sys_Noise
+WidgetEnd
+
+Widget Rear_Outs
+	Control /Rear_Outs
+	FB_Processor /Rear_Outs
+WidgetEnd
+
+Widget Mode_Enh
+	Control /Mode_Enh
+	FB_Processor /Mode_Enh
+WidgetEnd
+
+Widget Decay_Opt
+	Control /Decay_Opt
+	FB_Processor /Decay_Opt
+WidgetEnd
+
+Widget Wet_Solo
+	Control /Wet_Solo
+	FB_Processor /Wet_Solo
+WidgetEnd
+
+Widget DryWetInc
+	Control /DryWetInc
+	FB_Processor /DryWetInc
+WidgetEnd
+
+Widget DryWetDec
+	Control /DryWetDec
+	FB_Processor /DryWetDec
+WidgetEnd
+
+Widget DiffusionInc
+	Control /DiffusionInc
+	FB_Processor /DiffusionInc
+WidgetEnd
+
+Widget DiffusionDec
+	Control /DiffusionDec
+	FB_Processor /DiffusionDec
+WidgetEnd
+
+Widget EnhInc
+	Control /EnhInc
+	FB_Processor /EnhInc
+WidgetEnd
+
+Widget EnhDec
+	Control /EnhDec
+	FB_Processor /EnhDec
+WidgetEnd
+
+Widget OptInc
+	Control /OptInc
+	FB_Processor /OptInc
+WidgetEnd
+
+Widget OptDec
+	Control /OptDec
+	FB_Processor /OptDec
+WidgetEnd
+
+Widget Gain
+	Control /Gain
+	FB_Processor /Gain
+WidgetEnd
+
+Widget Peak_Reduct
+	Control /Peak_Reduct
+	FB_Processor /Peak_Reduct
+WidgetEnd
+

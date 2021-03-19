@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////NOTES////////////////////////////////////////////////////////
+//I have this device setup to control modifiers that my X-Touch One does not possess. Along for use with sends.    //
+//You must use the "CMC-QC 2" MIDI device ports when you setup this device in CSI.                                 // 
+//DO NOT turn on the MIDI button. That shifts the rotaries into a low resolution mode that transmits on CMC-QC 1.  //
+//Using the MIDI button would require a 2nd mst file and a second CSI device for low resolution. Not worth it IMO. //
+//To setup the Device in CSI use 0 Faders, 4 Sends, and 0 FXMenu and CMC-QC 2 as the ports.             								//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Zone "Home"
+	OnTrackSelection	MapSelectedTrackSendsToWidgets
+	IncludedZones
+		"Buttons"
+		"SelectedTrackButtons"
+	IncludedZonesEnd
+ZoneEnd
+
+Zone "Buttons"
+	Shift 		Shift
+	F1 			Alt
+	F2 			Control
+	F3 			Option
+	F4 			ToggleVCAMode				// Toggle VCAs
+     Shift+F4 		Reaper 41803 				// Track: Select all top level tracks
+     Shift+F4 		Reaper 41665 				// Mixer: Show/hide children of selected tracks
+     Shift+F4 		Reaper 40297 				// Track: Unselect all tracks
+	IOLearn 		Reaper 40293				// Track: View routing and I/O for current/last touched track
+	EQ 			Reaper _S&M_TOGLFXCHAIN       // Toggle Show FX Chain
+ZoneEnd
+
+Zone "SelectedTrackButtons"
+	SelectedTrackNavigator
+	Previous 		Reaper 40286			//Select previous channel
+	Next 		Reaper 40285		  	//Select next channel
+	Read 		Reaper 40400			//Automation: Set track automation mode to trim/read
+	Write 		Reaper 40403			//Automation: Set track automation mode to write4
+ZoneEnd
+
+Zone "Send" 		// Keep the "MIDI" button off for sends to work.
+     SendNavigator
+	UpperRotary|  	TrackSendVolume
+	LowerRotary|  	TrackSendPan
+ZoneEnd

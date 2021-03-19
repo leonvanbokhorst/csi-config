@@ -1,0 +1,11 @@
+Zone "VST3: DeEsser Stereo (Waves)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 2 "Threshold"
+	Rotary2	FXParam 3 "Freq"
+	Alt+Rotary1	FXParam 4 "SideChain"
+	Alt+Rotary2 FXParam 6 "Monitor"
+	Alt+Rotary3	FXParam 5 "Audio"
+
+	/FXParam 8 "Wet"
+ZoneEnd

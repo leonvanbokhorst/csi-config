@@ -1,0 +1,26 @@
+Zone Home
+    IncludedZones
+        "Channel"
+    IncludedZonesEnd
+ZoneEnd
+
+
+Zone "Channel"
+    TrackNavigator
+    DisplayUpper|               TrackNameDisplay
+    DisplayLower|               MCUTrackPanDisplay Rotary|
+    RotaryPush|                 NoAction
+    Rotary|                     MCUTrackPan
+    RecordArm|                  TrackRecordArm
+    Solo|                       TrackSolo
+    Mute|                       TrackMute
+    Select|                     TrackUniqueSelect
+    Hold+Select|                TrackUniqueSelect
+    Hold+Select|				TrackToggleVCASpill
+    Hold+Select|				Reaper "41665"				//Show/hide children of selected tracks
+    Shift+Select|               TrackRangeSelect
+    Control+Select|             TrackSelect
+    Shift+Control+Select|       TogglePin
+    Fader|                      TrackVolume
+    VUMeter|                    TrackOutputMeter
+ZoneEnd

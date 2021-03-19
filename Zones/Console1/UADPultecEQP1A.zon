@@ -1,0 +1,17 @@
+Zone "VST: UAD Pultec EQP-1A (Universal Audio, Inc.)" "EQP1A"
+	SelectedTrackNavigator
+	HiGain 			FXParam "7" "HF Atten"
+	HiFrequency 		FXParam "6" "HF Atten Freq"
+	HiMidGain 		FXParam "4" "HF Boost"
+	HiMidFrequency 		FXParam "3" "High Freq"
+	HiMidQ 			FXParam "5" "HF Q"
+	LoMidGain 		FXParam "2" "LF Atten"
+	LoMidFrequency 		FXParam "0" "Low Freq"
+	LoGain 			FXParam "1" "LF Boost"
+	LoFrequency 		FXParam "0" "Low Freq"
+	InvertFB+Equalizer	FXParam "10" "Bypass" [ 0.0 1.0 ]
+	Parallel 		FXParam "11" "Wet"
+
+	ChannelRight 		FXParam "0" "Low Freq" [ 0.0 0.33 0.66 1.0 ]
+	ChannelLeft 		FXParam "0" "Low Freq" [ 1.0 0.66 0.33 0.0 ]
+ZoneEnd

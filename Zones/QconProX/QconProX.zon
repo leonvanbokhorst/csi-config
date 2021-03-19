@@ -1,0 +1,135 @@
+Zone Home
+IncludedZones
+"Buttons"
+"Channel"
+"MasterChannel"
+IncludedZonesEnd
+ZoneEnd
+
+Zone "Buttons"
+Shift Shift
+Option Option
+Control Control
+Alt Alt
+Blank1 GoZoneHome
+Blank2 NoAction
+Blank4 Reaper "40172" // GO TO PREVIOUS MARKER
+Blank5 Reaper "40173" // GO TO NEXT MARKER
+Send MapSelectedTrackSendsToWidgets
+Pan NoAction
+Plugin MapSelectedTrackFxToMenu
+EQ Reaper "40910" // TOGGLE SHOW FX PARAMS
+ChannelLeft TrackBank "-1"
+ChannelRight TrackBank "1"
+BankLeft TrackBank "-8"
+BankRight TrackBank "8"
+TimeDisplay TimeDisplay
+smpteBeats CycleTimeDisplayModes
+Rewind Rewind
+FastForward FastForward
+Stop Stop
+Play Play
+Record Reaper "1013"
+F1 Reaper "40702" // CREATE NEW TRACK
+F2 Reaper "40421" // SELECT ALL ITEMS  
+F3 Reaper "_XENAKIOS_RRSELECTTAKESOFITEMS" // CYCLE SELECT TAKE 
+F4 Reaper "40701" CREATE NEW VIRTUAL INSTRUMENT TRACK
+F5 Reaper "40025" // OPEN PROJECT
+F6 Reaper "40078" // TOGGLE MIXER VISIBLE
+F7 Reaper "_S&M_TOGLFXCHAIN" // TOGGLE SHOW FX CHAIN
+F8 Reaper "40846" // VIEW FX CHAIN FOR MASTER TRACK
+F1L2 NoAction
+F2L2 NoAction
+F3L2 NoAction
+F4L2 NoAction
+F5L2 NoAction
+F6L2 NoAction
+F7L2 NoAction
+F8L2 NoAction
+ClickL2 NoAction 
+Read TrackAutoMode "1"
+Shift+Read GlobalAutoMode "1"
+Write TrackAutoMode "3"
+Shift+Write GlobalAutoMode "3"
+Trim TrackAutoMode "0"
+Shift+Trim GlobalAutoMode "0"
+Touch TrackAutoMode "2"
+Shift+Touch GlobalAutoMode "2"
+Latch TrackAutoMode "4"
+Shift+Latch GlobalAutoMode "4"
+Blank3 Reaper "42023" // LATCH PREVIEW
+Shift+Blank3 Reaper "42024" // GLOBAL LATCH PREVIEW 
+Save Reaper "40026" // SAVE
+Undo Reaper "40029" // UNDO
+Flip Reaper "40346" // TOGGLE FULLSCREEN
+Normal NoAction
+Marker Reaper "40157" // INSERT MARKER
+Loop CycleTimeline
+nameValue NoAction
+Click Reaper "40364" // METRONOME
+Shift+Click Reaper "40363" // SHOW METRONOME SETTINGS
+Solo Reaper "40745" // SOLO UPFRONT
+Mode ToggleVCAMode
+Zoom Reaper "_SWS_TOGZOOMIMIN" // TOG ZOOM SEL ITEM/TIME SEL 
+Up Reaper "40111" // ZOOM IN VERTICAL
+Down Reaper "40112" // ZOOM OUT VERTICAL
+Left Reaper "1011" // ZOOM OUT HORIZONTAL
+Right Reaper "1012" // ZOOM IN HORIZONTAL
+Scrub NoAction
+JogWheelRotaryCW Reaper "41667" // NORMAL JOG RIGHT
+JogWheelRotaryCCW Reaper "41666" // NORMAL JOG LEFT
+Shift+JogWheelRotaryCW Reaper "_SWS_MOVECUR5MSRIGHT" // SLOW JOG
+Shift+JogWheelRotaryCCW Reaper "_SWS_MOVECUR5MSLEFT" // SLOW JOG
+ZoneEnd
+
+Zone "Channel"
+	TrackNavigator
+	VUMeter|  TrackOutputMeterMaxPeakLR
+	/VUMeter|  TrackOutputMeterAverageLR
+	DisplayUpper|  TrackNameDisplay
+	DisplayLower|  MCUTrackPanDisplay Rotary|
+	Rotary| MCUTrackPan [ (0.005,0.01,0.025,0.0334,0.05,0.075,0.09,0.1) ] 
+	RecordArm|  TrackRecordArm
+	Solo|  TrackSolo
+	Mute| TrackMute
+	Select|  TrackUniqueSelect
+	Shift+Select|  TrackRangeSelect
+	Control+Select|  TrackSelect
+	Shift+Control+Select| TogglePin
+	Option+Select| TrackFolderDive
+     Alt+Select| TrackUniqueSelect
+     Alt+Select| Reaper "41665"
+     Alt+Select| TrackToggleVCASpill
+	Fader|  TrackVolume
+ZoneEnd
+
+Zone "Send"
+      SendNavigator
+      DisplayUpper| TrackSendNameDisplay
+      DisplayLower| TrackSendVolumeDisplay
+      Mute| TrackSendMute
+      Fader| TrackSendVolume
+      Rotary| TrackSendPan
+      RotaryPush| NoAction
+ZoneEnd
+
+Zone "MasterChannel"
+	MasterTrackNavigator
+     MasterChannelMeterLeft MasterTrackOutputMeter 0
+     MasterChannelMeterRight MasterTrackOutputMeter 1
+	MasterFader TrackVolume
+ZoneEnd
+
+Zone "FXMenu"
+     FXMenuNavigator
+     DisplayUpper| FXMenuNameDisplay
+     DisplayLower| NoAction
+     Rotary| NoAction
+     RotaryPush| GoFXSlot
+ZoneEnd
+
+
+
+
+
+     

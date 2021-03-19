@@ -1,0 +1,118 @@
+Zone "Home"
+	OnEuConFXAreaGainedFocus MapSelectedTrackFXToWidgets
+	OnTrackSelection 	 MapSelectedTrackFXToWidgets
+	IncludedZones 
+		"Buttons"
+		"Channel"
+	IncludedZonesEnd
+ZoneEnd
+
+Zone "Buttons"
+	Rewind 			Rewind
+	FastForward 		FastForward
+	Stop 			Stop
+	Play 			Play
+	Record 			Record
+	Cycle 			CycleTimeline
+	ReturnToZero		SetShowFXWindows
+	PrimaryTimeDisplay	EuConTimeDisplay
+	ToggleMixerWindow	Reaper 40078
+	CloseFXWindows		Reaper _S&M_WNCLS3
+
+ZoneEnd
+
+Zone "Channel"
+	TrackNavigator
+
+	IncludedZones 
+		"Send"
+	IncludedZonesEnd
+
+	Display|  		TrackNameDisplay
+	Pan_Rotary| 		TrackPanPercent
+	Width_Rotary| 		TrackPanWidthPercent
+	PanL_Rotary| 		TrackPanLPercent
+	PanR_Rotary| 		TrackPanRPercent
+	RecordArm|  		TrackRecordArm
+	AutomationSelect|	CycleTrackAutoMode
+	Solo|  			TrackSolo
+	Mute| 			TrackMute
+	Select|  		TrackUniqueSelect
+	Shift+Select|  		TrackRangeSelect
+	Control+Select|  	TrackSelect
+	Shift+Control+Select|	TogglePin
+	Alt+Select|		TrackToggleVCASpill
+	Option+Select|   	TrackUniqueSelect
+   	Option+Select|   	Reaper 41665       //Mixer: Show/hide children of selected tracks
+	FaderDB|  		TrackVolumeDB
+
+ZoneEnd
+
+Zone "Send"
+	TrackNavigator
+
+	Send_Rotary1Ch| TrackSendVolumeDB 0
+	Send_Rotary2Ch| TrackSendVolumeDB 1
+	Send_Rotary3Ch| TrackSendVolumeDB 2
+	Send_Rotary4Ch| TrackSendVolumeDB 3
+	Send_Rotary5Ch| TrackSendVolumeDB 4
+	Send_Rotary6Ch| TrackSendVolumeDB 5
+	Send_Rotary7Ch| TrackSendVolumeDB 6
+	Send_Rotary8Ch| TrackSendVolumeDB 7
+	Send_Rotary9Ch| TrackSendVolumeDB 8
+	Send_Rotary10Ch| TrackSendVolumeDB 9
+	Send_Rotary11Ch| TrackSendVolumeDB 10
+	Send_Rotary12Ch| TrackSendVolumeDB 11
+
+	Send_Display1Ch| EuConTrackSendNameDisplay 0
+	Send_Display2Ch| EuConTrackSendNameDisplay 1
+	Send_Display3Ch| EuConTrackSendNameDisplay 2
+	Send_Display4Ch| EuConTrackSendNameDisplay 3
+	Send_Display5Ch| EuConTrackSendNameDisplay 4
+	Send_Display6Ch| EuConTrackSendNameDisplay 5
+	Send_Display7Ch| EuConTrackSendNameDisplay 6
+	Send_Display8Ch| EuConTrackSendNameDisplay 7
+	Send_Display9Ch| EuConTrackSendNameDisplay 8
+	Send_Display10Ch| EuConTrackSendNameDisplay 9
+	Send_Display11Ch| EuConTrackSendNameDisplay 10
+	Send_Display12Ch| EuConTrackSendNameDisplay 11
+
+	Send_SwitchUpper1Ch| EuConTrackSendPrePost 0
+	Send_SwitchUpper2Ch| EuConTrackSendPrePost 1
+	Send_SwitchUpper3Ch| EuConTrackSendPrePost 2
+	Send_SwitchUpper4Ch| EuConTrackSendPrePost 3
+	Send_SwitchUpper5Ch| EuConTrackSendPrePost 4
+	Send_SwitchUpper6Ch| EuConTrackSendPrePost 5
+	Send_SwitchUpper7Ch| EuConTrackSendPrePost 6
+	Send_SwitchUpper8Ch| EuConTrackSendPrePost 7
+	Send_SwitchUpper9Ch| EuConTrackSendPrePost 8
+	Send_SwitchUpper10Ch| EuConTrackSendPrePost 9
+	Send_SwitchUpper11Ch| EuConTrackSendPrePost 10
+	Send_SwitchUpper12Ch| EuConTrackSendPrePost 11
+
+	Invert+Send_SwitchLower1Ch| EuConTrackSendMute 0
+	Invert+Send_SwitchLower2Ch| EuConTrackSendMute 1
+	Invert+Send_SwitchLower3Ch| EuConTrackSendMute 2
+	Invert+Send_SwitchLower4Ch| EuConTrackSendMute 3
+	Invert+Send_SwitchLower5Ch| EuConTrackSendMute 4
+	Invert+Send_SwitchLower6Ch| EuConTrackSendMute 5
+	Invert+Send_SwitchLower7Ch| EuConTrackSendMute 6
+	Invert+Send_SwitchLower8Ch| EuConTrackSendMute 7
+	Invert+Send_SwitchLower9Ch| EuConTrackSendMute 8
+	Invert+Send_SwitchLower10Ch| EuConTrackSendMute 9
+	Invert+Send_SwitchLower11Ch| EuConTrackSendMute 10
+	Invert+Send_SwitchLower12Ch| EuConTrackSendMute 11
+
+	Send_RotaryPush1Ch| EuConTrackSendInvertPolarity 0
+	Send_RotaryPush2Ch| EuConTrackSendInvertPolarity 1
+	Send_RotaryPush3Ch| EuConTrackSendInvertPolarity 2
+	Send_RotaryPush4Ch| EuConTrackSendInvertPolarity 3
+	Send_RotaryPush5Ch| EuConTrackSendInvertPolarity 4
+	Send_RotaryPush6Ch| EuConTrackSendInvertPolarity 5
+	Send_RotaryPush7Ch| EuConTrackSendInvertPolarity 6
+	Send_RotaryPush8Ch| EuConTrackSendInvertPolarity 7
+	Send_RotaryPush9Ch| EuConTrackSendInvertPolarity 8
+	Send_RotaryPush10Ch| EuConTrackSendInvertPolarity 9
+	Send_RotaryPush11Ch| EuConTrackSendInvertPolarity 10
+	Send_RotaryPush12Ch| EuConTrackSendInvertPolarity 11
+ZoneEnd

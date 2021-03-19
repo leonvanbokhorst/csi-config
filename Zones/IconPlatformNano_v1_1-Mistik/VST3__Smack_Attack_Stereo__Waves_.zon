@@ -1,0 +1,18 @@
+Zone "VST3: Smack Attack Stereo (Waves)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 2 "Attack"
+	Alt+Rotary1	FXParam 3 "AttackSensitivity"
+	Shift+Rotary1			FXParam 4 "AttackDuration"
+	Control+Rotary1	FXParam 5 "AttackShape" [ 0.0 0.5 1.0 ]
+
+	Rotary2	FXParam 6 "Sustain"
+	Alt+Rotary2	FXParam 7 "SustainSensitivity"
+	Shift+Rotary2			FXParam 8 "SustainDuration"
+	Control+Rotary2	FXParam 9 "SustainShape" [ 0.0 0.5 1.0 ]
+
+	Rotary3	FXParam 11 "Output"
+	Control+Rotary3	FXParam 12 "Guard" [ 0.0 0.5 1.0 ]
+
+	Rotary4	FXParam 10 "Mix"
+ZoneEnd

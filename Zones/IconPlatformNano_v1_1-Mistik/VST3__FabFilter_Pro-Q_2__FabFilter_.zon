@@ -1,0 +1,39 @@
+Zone "VST3: FabFilter Pro-Q 2 (FabFilter)"
+	FocusedFXNavigator
+
+	Rotary1								FXParam 1 "B1 Frequency"
+	Alt+Rotary1						FXParam 2 "B1 Gain"
+	Shift+Rotary1					FXParam 3 "B1 Q"
+	Control+Rotary1				FXParam 5 "B1 Slope"
+	Alt+Shift+Rotary1			FXParam 4 "B1 Shape"
+
+	Rotary2								FXParam 36 "B6 Frequency"
+	Alt+Rotary2						FXParam 37 "B6 Gain"
+	Shift+Rotary2					FXParam 38 "B6 Q"
+	Control+Rotary2				FXParam 40 "B6 Slope"
+	Alt+Shift+Rotary2			FXParam 39 "B6 Shape"
+
+	Rotary3								FXParam 15 "B3 Frequency"
+	Alt+Rotary3						FXParam 16 "B3 Gain"
+	Shift+Rotary3					FXParam 17 "B3 Q"
+	Control+Rotary3				FXParam 19 "B3 Slope"
+	Alt+Shift+Rotary3			FXParam 18 "B3 Shape"
+
+	Rotary4								FXParam 22 "B4 Frequency"
+	Alt+Rotary4						FXParam 26 "B4 Slope"
+	Shift+Rotary4					FXParam 24 "B4 Q"
+	Control+Rotary4				FXParam 23 "B4 Gain"
+	Alt+Shift+Rotary4			FXParam 25 "B4 Shape"
+
+	Rotary5								FXParam 8 "B2 Frequency"
+	Alt+Rotary5						FXParam 9 "B2 Gain"
+	Shift+Rotary5					FXParam 10 "B2 Q"
+	Control+Rotary5				FXParam 12 "B2 Slope"
+	Alt+Shift+Rotary5			FXParam 11 "B2 Shape"
+
+	Rotary6								FXParam 29 "Band 5 Frequency"
+	Alt+Rotary6						FXParam 30 "Band 5 Gain"
+	Shift+Rotary6					FXParam 31 "Band 5 Q"
+	Control+Rotary6				FXParam 33 "Band 5 Slope"
+	Alt+Shift+Rotary6			FXParam 32 "Band 5 Shape"
+ZoneEnd

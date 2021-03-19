@@ -1,0 +1,19 @@
+Zone "VST: ValhallaVintageVerb (Valhalla DSP, LLC)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 0 "Mix"
+
+	Rotary2	FXParam 2 "Decay"
+	Alt+Rotary2	FXParam 1 "PreDelay"
+
+	/FXParam 3 "Size"
+	/FXParam 4 "Attack"
+
+	Rotary3			FXParam 14 "LowCut"
+	Rotary4			FXParam 13 "HighCut"
+
+	Alt+Rotary4	FXParam 7 "HighShelf"
+
+	Rotary5			FXParam 16 "ReverbMode"
+	Rotary6			FXParam 15 "ColorMode"
+ZoneEnd

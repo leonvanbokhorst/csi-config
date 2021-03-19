@@ -1,0 +1,103 @@
+Zone Home
+	OnTrackSelection 	MapSelectedTrackSendsToWidgets
+	OnTrackSelection 	MapSelectedTrackFXToMenu
+	
+	IncludedZones
+		"Buttons"
+		"Channel"
+	IncludedZonesEnd
+ZoneEnd
+
+// ------------------------------------------------------------
+// Behringer X-Touch Extender
+// by Michael Bodenbach
+// 26.03.2020
+// ------------------------------------------------------------
+// Version 0.1
+// Version 0.2 / 10.04.2020
+// Version 1.0
+// ------------------------------------------------------------
+// History:
+// 08.12.2020   Upgrade to CSI 1.0
+			    Move back to OnTrackSelection 	MapSelectedTrackFXToMenu
+// 26.03.2020	Pan Encoder working
+//				VUMeter working
+// 10.04.2020	RecordArm actions
+// 10.04.2020	FX Support enabled.
+// ------------------------------------------------------------
+// Todo:
+//				...
+// ------------------------------------------------------------
+
+Zone "Buttons"
+    ChannelLeft 	TrackBank "-1"
+	ChannelRight	TrackBank "1"
+	BankLeft 		TrackBank "-8"
+	BankRight 		TrackBank "8"
+
+	Read 			TrackAutoMode 	"1"
+	Write 			TrackAutoMode 	"3"
+	Trim 			TrackAutoMode 	"0"
+	Touch 			TrackAutoMode 	"2"
+	Latch 			TrackAutoMode 	"4"
+	Group 			Reaper 			"42023"
+
+	Shift+Read 		GlobalAutoMode 	"1"
+	Shift+Write 	GlobalAutoMode 	"3"
+	Shift+Trim 		GlobalAutoMode 	"0"
+	Shift+Touch 	GlobalAutoMode 	"2"
+	Shift+Latch 	GlobalAutoMode 	"4"
+	Shift+Group		Reaper 			"42024"
+
+	Save 			Reaper 			"40026"
+	Shift+Save 		Reaper 			"40022"
+
+	Undo 			Reaper 			"40029"
+	Shift+Undo 		Reaper 			"40030"
+
+	Marker 			Reaper 			"40172"
+	Shift+Marker 	Reaper 			"40157"
+	Option+Marker 	Reaper 			"40174"
+
+	Click 					Reaper								"40364"					// Options: Toggle metronome
+	Hold+Click				Reaper 								"40363"					// Options: Show metronome/pre-roll settings
+
+ZoneEnd
+
+
+Zone "Channel"
+	TrackNavigator
+	DisplayUpper|  				TrackNameDisplay
+    DisplayLower| 			 	MCUTrackPanDisplay
+    Takeover+DisplayLower|  	TrackVolumeDisplay
+    Takeover+DisplayLower|  	TrackSendVolumeDisplay	
+	Rotary|			 			MCUTrackPan
+	RecordArm|  				TrackRecordArm
+	Control+RecordArm|			CycleTrackAutoMode 		DisplayLower| [ 0 1 3 2 4 5 ]
+	Shift+RecordArm|			Reaper 40495				//Cycle track record monitor	Solo|  						TrackSolo
+	Mute| 						TrackMute
+	Select|  					TrackUniqueSelect
+	Shift+Select|  				TrackRangeSelect
+	Control+Select|  			TrackSelect
+	Shift+Control+Select|		TogglePin
+	Option+Select|				TrackFolderDive
+	Fader|  					TrackVolume
+	VUMeter| 					TrackOutputMeter
+ZoneEnd
+
+
+Zone "Send"
+    SendNavigator
+    DisplayUpper|               TrackSendNameDisplay
+    DisplayLower|               TrackSendVolumeDisplay
+    Mute|                       TrackSendMute
+    Fader|                      TrackSendVolume
+ZoneEnd 
+
+Zone "FXMenu"
+    FXMenuNavigator
+    DisplayUpper|               FXMenuNameDisplay
+    DisplayLower|               NoAction
+    Rotary|                     NoAction
+    RotaryPush|                 GoFXSlot
+ZoneEnd

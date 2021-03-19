@@ -1,0 +1,33 @@
+Zone "VSTi: Serum (Xfer Records)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 45 "Fil Cutoff"
+	Alt+Rotary1	FXParam 47 "Fil Driv"
+	Shift+Rotary1	FXParam 44 "Fil Type"
+
+	Rotary2	FXParam 46 "Fil Reso"
+	Alt+Rotary2	FXParam 48 "Fil Var"
+
+	Rotary3	FXParam 65 "PortTime"
+
+	Rotary4	FXParam 0 "MasterVol"
+
+	Rotary5	FXParam 81 "Verb Wet"
+	Alt+Rotary5	FXParam 82 "VerbSize"
+	Shift+Rotary5	FXParam 83 "Decay"
+
+	Rotary6	FXParam 124 "Dly_Wet"
+	Alt+Rotary6	FXParam 132 "Dly_Feed"
+
+	Rotary7	FXParam 135 "Cmp_Thr"
+	Alt+Rotary7	FXParam 139 "CmpGain"
+
+	Rotary8	FXParam 147 "Hyp_Wet"
+	Alt+Rotary8	FXParam 153 "HypDim_Mix"
+
+	Control+Rotary1	FXParam 218 "Macro 1"
+	Control+Rotary2	FXParam 219 "Macro 2"
+	Control+Rotary3	FXParam 220 "Macro 3"
+	Control+Rotary4	FXParam 221 "Macro 4"
+
+ZoneEnd

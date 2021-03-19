@@ -1,0 +1,405 @@
+Widget ButtonA1
+Press b0 5b 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 5b 7f
+WidgetEnd
+
+Widget ButtonA2
+Press b0 5c 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 5c 7f
+WidgetEnd
+
+Widget ButtonA3
+Press b0 5d 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 5d 7f
+WidgetEnd
+
+Widget ButtonA4
+Press b0 5e 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 5e 7f
+WidgetEnd
+
+Widget ButtonA5
+Press b0 5f 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 5f 7f
+WidgetEnd
+
+Widget ButtonA6
+Press b0 60 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 60 7f
+WidgetEnd
+
+Widget ButtonA7
+Press b0 61 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 61 7f
+WidgetEnd
+
+Widget ButtonA8
+Press b0 62 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 62 7f
+WidgetEnd
+
+Widget ButtonA9
+Press b0 63 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 63 7f
+WidgetEnd
+
+Widget ButtonB1
+Press 90 51 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 51 7f
+WidgetEnd
+
+Widget ButtonB2
+Press 90 52 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 52 7f
+WidgetEnd
+
+Widget ButtonB3
+Press 90 53 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 53 7f
+WidgetEnd
+
+Widget ButtonB4
+Press 90 54 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 54 7f
+WidgetEnd
+
+Widget ButtonB5
+Press 90 55 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 55 7f
+WidgetEnd
+
+Widget ButtonB6
+Press 90 56 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 56 7f
+WidgetEnd
+
+Widget ButtonB7
+Press 90 57 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 57 7f
+WidgetEnd
+
+Widget ButtonB8
+Press 90 58 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 58 7f
+WidgetEnd
+
+Widget ButtonB9
+Press b0 59 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 59 7f
+WidgetEnd
+
+Widget ButtonC1
+Press 90 47 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 47 7f
+WidgetEnd
+
+Widget ButtonC2
+Press 90 48 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 48 7f
+WidgetEnd
+
+Widget ButtonC3
+Press 90 49 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 49 7f
+WidgetEnd
+
+Widget ButtonC4
+Press 90 4a 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 4a 7f
+WidgetEnd
+
+Widget ButtonC5
+Press 90 4b 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 4b 7f
+WidgetEnd
+
+Widget ButtonC6
+Press 90 4c 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 4c 7f
+WidgetEnd
+
+Widget ButtonC7
+Press 90 4d 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 4d 7f
+WidgetEnd
+
+Widget ButtonC8
+Press 90 4e 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 4e 7f
+WidgetEnd
+
+Widget ButtonC9
+Press b0 4f 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 4f 7f
+WidgetEnd
+
+Widget ButtonD1
+Press 90 3d 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 3d 7f
+WidgetEnd
+
+Widget ButtonD2
+Press 90 3e 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 3e 7f
+WidgetEnd
+
+Widget ButtonD3
+Press 90 3f 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 3f 7f
+WidgetEnd
+
+Widget ButtonD4
+Press 90 40 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 40 7f
+WidgetEnd
+
+Widget ButtonD5
+Press 90 41 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 41 7f
+WidgetEnd
+
+Widget ButtonD6
+Press 90 42 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 42 7f
+WidgetEnd
+
+Widget ButtonD7
+Press 90 43 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 43 7f
+WidgetEnd
+
+Widget ButtonD8
+Press 90 44 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 44 7f
+WidgetEnd
+
+Widget ButtonD9
+Press b0 45 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 45 7f
+WidgetEnd
+
+Widget ButtonE1
+Press 90 33 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 33 7f
+WidgetEnd
+
+Widget ButtonE2
+Press 90 34 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 34 7f
+WidgetEnd
+
+Widget ButtonE3
+Press 90 35 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 35 7f
+WidgetEnd
+
+Widget ButtonE4
+Press 90 36 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 36 7f
+WidgetEnd
+
+Widget ButtonE5
+Press 90 37 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 37 7f
+WidgetEnd
+
+Widget ButtonE6
+Press 90 38 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 38 7f
+WidgetEnd
+
+Widget ButtonE7
+Press 90 39 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 39 7f
+WidgetEnd
+
+Widget ButtonE8
+Press 90 3a 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 3a 7f
+WidgetEnd
+
+Widget ButtonE9
+Press b0 3b 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 3b 7f
+WidgetEnd
+
+Widget ButtonF1
+Press 90 29 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 29 7f
+WidgetEnd
+
+Widget ButtonF2
+Press 90 2a 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 2a 7f
+WidgetEnd
+
+Widget ButtonF3
+Press 90 2b 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 2b 7f
+WidgetEnd
+
+Widget ButtonF4
+Press 90 2c 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 2c 7f
+WidgetEnd
+
+Widget ButtonF5
+Press 90 2d 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 2d 7f
+WidgetEnd
+
+Widget ButtonF6
+Press 90 2e 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 2e 7f
+WidgetEnd
+
+Widget ButtonF7
+Press 90 2f 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 2f 7f
+WidgetEnd
+
+Widget ButtonF8
+Press 90 30 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 30 7f
+WidgetEnd
+
+Widget ButtonF9
+Press b0 31 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 31 7f
+WidgetEnd
+
+Widget ButtonG1
+Press 90 1f 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 1f 7f
+WidgetEnd
+
+Widget ButtonG2
+Press 90 20 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 20 7f
+WidgetEnd
+
+Widget ButtonG3
+Press 90 21 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 21 7f
+WidgetEnd
+
+Widget ButtonG4
+Press 90 22 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 22 7f
+WidgetEnd
+
+Widget ButtonG5
+Press 90 23 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 23 7f
+WidgetEnd
+
+Widget ButtonG6
+Press 90 24 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 24 7f
+WidgetEnd
+
+Widget ButtonG7
+Press 90 25 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 25 7f
+WidgetEnd
+
+Widget ButtonG8
+Press 90 26 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 26 7f
+WidgetEnd
+
+Widget ButtonG9
+Press b0 27 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 27 7f
+WidgetEnd
+
+Widget ButtonH1
+Press 90 15 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 15 7f
+WidgetEnd
+
+Widget ButtonH2
+Press 90 16 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 16 7f
+WidgetEnd
+
+Widget ButtonH3
+Press 90 17 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 17 7f
+WidgetEnd
+
+Widget ButtonH4
+Press 90 18 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 18 7f
+WidgetEnd
+
+Widget ButtonH5
+Press 90 19 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 19 7f
+WidgetEnd
+
+Widget ButtonH6
+Press 90 1a 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 1a 7f
+WidgetEnd
+
+Widget ButtonH7
+Press 90 1b 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 1b 7f
+WidgetEnd
+
+Widget ButtonH8
+Press 90 1c 7f 90 1c 00
+FB_NovationLaunchpadMiniRGB7Bit 90 1c 7f
+WidgetEnd
+
+Widget ButtonH9
+Press b0 1d 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 1d 7f
+WidgetEnd
+
+Widget ButtonI1
+Press 90 0b 7f 90 0b 00
+FB_NovationLaunchpadMiniRGB7Bit 90 0b 7f
+WidgetEnd
+
+Widget ButtonI2
+Press 90 0c 7f 90 0c 00
+FB_NovationLaunchpadMiniRGB7Bit 90 0c 7f
+WidgetEnd
+
+Widget ButtonI3
+Press 90 0d 7f 90 0d 00
+FB_NovationLaunchpadMiniRGB7Bit 90 0d 7f
+WidgetEnd
+
+Widget ButtonI4
+Press 90 0e 7f 90 0e 00
+FB_NovationLaunchpadMiniRGB7Bit 90 0e 7f
+WidgetEnd
+
+Widget ButtonI5
+Press 90 0f 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 0f 7f
+WidgetEnd
+
+Widget ButtonI6
+Press 90 10 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 10 7f
+WidgetEnd
+
+Widget ButtonI7
+Press 90 11 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 11 7f
+WidgetEnd
+
+Widget ButtonI8
+Press 90 12 7f
+FB_NovationLaunchpadMiniRGB7Bit 90 12 7f
+WidgetEnd
+
+Widget ButtonI9
+Press b0 13 7f
+FB_NovationLaunchpadMiniRGB7Bit b0 13 7f
+WidgetEnd
+

@@ -1,0 +1,70 @@
+Zone Home
+	OnFXFocus 	MapFocusedFXToWidgets
+	IncludedZones
+		"Global"
+		"Track Control"
+	IncludedZonesEnd
+ZoneEnd
+
+Zone "Global"
+	Shift 			Shift
+	Rewind 			Rewind
+	FastForward		FastForward
+	Stop 			Stop
+	Play 			Play
+	Record 			Record
+	Cycle			Reaper "1068" 	// Toggle Repeat
+	Section			Reaper "40306" 	// Insert region from time selection and edit ..., OK
+	Shift+Section	Reaper "40615" 	//remove region near cursor, OK
+	Marker 			Reaper "_RSc0c8e7d5ce81e5d829c6d788bd692eb9c81ea6ab"	//Insert marker, OK
+	Shift+Marker 	Reaper "40613" 	//remove marker near cursor, OK
+	Click 			Reaper 	"40364" // Toggle metronome, OK
+	Touch			Reaper "41109" // Toggle track automation mode to touch/trim, OK
+	Shift+Touch		Reaper "40404" // Set track automation mode to latch, OK
+ 	Read			Reaper "_RSb83805462333cdd117fb77594a03dfd26d8c67c8" // Set track automation mode to Read/Trim, OK
+	Shift+Read		Reaper "40088" // Set All tracks automation mode to trim/read
+	Channel			Reaper "40293" // View routing and I/O for current/last touched track, OK
+	Shift+Write		Reaper "40088" // Set all tracks automation mode to trim/read, OK
+	Shift+Pan		Reaper "_SWS_AWPANDUALPAN" // Set selected tracks pan mode to dual pan
+	Write			Reaper "_RS529bf7c9354c397e77428f826c4997ac3cf29a09" // Set track automation mode to Latch/trim, OK
+	Pan			    Reaper "_SWS_AWPANBALANCENEW" // Set selected tracks pan mode to stereo balance
+	Shift+Channel   Reaper "24907" // Bass FX chain
+	Master			GoZone 	"Master"
+	Scroll			GoZone	"Zoom"
+	Shift+Scroll	GoZone	"Vertical Zoom"
+ZoneEnd
+
+Zone "Track Control"
+	SelectedTrackNavigator
+	Prev			Reaper 40286 	//Select previous track, OK
+	Next			Reaper 40285 	//Select next track, OK
+	Bypass|	   		Reaper 	"_RS23c5beae0f5e2dfddcab7ecf8fd0337f78a4539d" // Toggle wet/dry for focused FX, OK
+	RecordArm| 		TrackRecordArm
+	Solo|  			TrackSolo
+	Mute|			TrackMute
+	Fader|	  		TrackVolume
+	Rotary|			TrackPan
+ZoneEnd
+
+Zone "Master"
+	MasterTrackNavigator
+	Fader1 			TrackVolume
+	Master			GoZone Home
+	Link			GoZone Home
+ZoneEnd
+
+
+Zone "Zoom"
+	Prev			Reaper	"1011" // 
+	Next			Reaper	"1012"
+	Scroll			GoZone Home
+	Link			GoZone Home
+ZoneEnd
+
+Zone "Vertical Zoom"
+	Prev			Reaper	"40112" // 
+	Next			Reaper	"40111"
+	Scroll			GoZone Home
+	Link			GoZone Home
+	Shift+Scroll	GoZone Home
+ZoneEnd

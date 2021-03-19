@@ -1,0 +1,5 @@
+Zone "VST: UAD Teletronix LA-2A Silver (Universal Audio, Inc.)"
+	SelectedTrackNavigator
+	Peak_Reduct	FXParam "0"
+	Gain 		FXParam "1"
+ZoneEnd

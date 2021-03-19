@@ -1,0 +1,11 @@
+Zone "VST3: RBass Stereo (Waves)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 3 "Intensity"
+
+	Rotary2	FXParam 2 "Frequency"
+
+	Rotary3	FXParam 4 "Out Gain"
+
+	Rotary4	FXParam 7 "Wet"
+ZoneEnd

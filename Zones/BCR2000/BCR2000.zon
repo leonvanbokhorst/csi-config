@@ -1,0 +1,23 @@
+Zone Home
+	IncludedZones
+		"Buttons"
+                "Channel"
+	IncludedZonesEnd
+ZoneEnd
+
+Zone "Buttons"
+        UserButton1         Play
+        UserButton2         Stop
+	UserButton3	    Reaper "40029"
+        UserButton4         Record
+ZoneEnd
+
+Zone "Channel"
+     TrackNavigator
+        RotaryG|           MCUTrackPan
+        UpperButton|        TrackSolo
+        BottomButton|       TrackMute
+        RotaryA|           TrackVolume
+ZoneEnd
+
+     

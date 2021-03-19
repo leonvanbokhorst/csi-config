@@ -1,0 +1,20 @@
+Zone "VST: UAD Lexicon 224 (Universal Audio, Inc.)"
+	SelectedTrackNavigator
+	Program 		FXParam "0"
+	Bass 			FXParam "1"
+	Mid 			FXParam "2"
+	Crossover 		FXParam "3"
+	Treble_Decay 		FXParam "4"
+	Depth 			FXParam "5"
+	Pre-delay 		FXParam "6"
+
+	DiffusionInc 		FXParamRelative "1"
+	DiffusionDec 		FXParamRelative "-1"
+
+	Toggle+Immed 		FXParam "8"
+	Toggle+Sys_Noise 	XParam "9"
+	Toggle+Rear_Outs 	FXParam "10"
+	Toggle+Mode_Enh 	FXParam "13"
+	Toggle+Decay_Opt 	FXParam "16"
+	Toggle+Wet_Solo 	FXParam "12"
+ZoneEnd

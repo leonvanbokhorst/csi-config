@@ -1,0 +1,10 @@
+Zone "VST3: RVox Stereo (Waves)"
+	FocusedFXNavigator
+
+	Rotary1	FXParam 3 "Gate"
+	Rotary2	FXParam 2 "Compression"
+	Rotary3	FXParam 4 "Gain"
+
+	Alt+Rotary4	FXParam 6 "Wet"
+
+ZoneEnd

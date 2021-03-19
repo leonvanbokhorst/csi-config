@@ -1,0 +1,33 @@
+Zone "Home"
+	SelectedTrackNavigator
+	ButtonD7		ToggleVCAMode { 25 0 0  175 0 0 }
+	ButtonE7		TrackBank "-16" { Track }
+	ButtonE8		TrackBank "16"
+	ButtonF7		TrackBank "-1"
+	ButtonF8		TrackBank "1"
+
+	ButtonE1 	TrackAutoMode 	"0" 	{ 25 25 25  40 40 40 } [ 0.0 0.1 0.25 0.5 0.6 0.7 0.9 1.0 ]
+	Shift+ButtonE1 	GlobalAutoMode 	"0" 	{ 15 15 15  40 40 40 }
+	ButtonE2 	TrackAutoMode 	"1" 	{ 8 50 18  60 115 60 }
+	Shift+ButtonE2 	GlobalAutoMode 	"1" 	{ 12 30 12  60 115 60 }
+	ButtonE3 	TrackAutoMode 	"3" 	{ 50 25 25  150 75 75 }
+	Shift+ButtonE3 	GlobalAutoMode	"3"	{ 25 12 12  150 75 75 }
+	ButtonE4 	TrackAutoMode 	"2" 	{ 30 30 10  150 150 60 }
+	Shift+ButtonE4	GlobalAutoMode 	"2" 	{ 15 15 5  150 150 60 }
+	ButtonE5 	TrackAutoMode 	"4" 	{ 30 0 30  75 0 75 }
+	Shift+ButtonE5 	GlobalAutoMode 	"4" 	{ 15 0 15  75 0 75 }
+	ButtonE6 	TrackAutoMode 	"5" 	{ 30 0 30  75 0 75 }
+	Shift+ButtonE6 	GlobalAutoMode 	"5" 	{ 15 0 15  75 0 75 }
+	ButtonH6 	Reaper 		"40042" { 10 10 10  10 10 10 }
+	ButtonH7 	CycleTimeline 		{ 0 0 15  0 0 100 }
+	ButtonH8 	Reaper 		"40364" { 0 80 0  136 100 0 }
+	Hold+ButtonH8 	Reaper 		"40363"
+	ButtonI6 	Stop 			{ 10 10 10  30 30 30 }
+	ButtonI7 	Play 			{ 0 25 0  0 127 0 }
+	ButtonI8 	Record 			{ 25 0 0  200 0 0 }
+	ButtonI1 	Shift 			{ 15 0 0  150 0 0 }
+	ButtonI2 	Control 		{ 0 0 15  0 0 150 }
+	ButtonI3 	Option 			{ 0 15 0  0 150 0 }
+	ButtonI4 	Alt 			{ 15 15 0  80 80 0 }
+	ButtonI5 	CycleTimeDisplayModes	{ 0 0 15  0 0 15 }
+ZoneEnd
