@@ -1,0 +1,8 @@
+
+
+Widget MFTRotary1
+	Encoder b0 00 7f [ > 01-0f < 41-4f ]
+	FB_Encoder b0 00 7f
+	//Toggle B1 00 7f
+WidgetEnd
+
